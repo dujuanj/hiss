@@ -1,0 +1,187 @@
+.OS_part1 span{
+  font-size: 16px;
+    color:#313131;
+}
+.OS_part1 p{
+    color:#313131;
+   font-size: 12px;
+}
+.part2 .figure_bg {
+    /* background: url(../img/omin_bg.png) center center no-repeat; */
+    background-size: cover;
+    height: 655px;
+    /* border-top:1px solid #ccc; */
+    /* border-bottom: 1px solid #ccc; */
+    /* position: relative;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    top: -100px; */
+}
+.part2{
+    margin-top:95px;
+    padding-bottom: 54px;
+    background: #f1f2f3;
+}
+.overHidden{
+    height: 655px;
+}
+.part2 .container h2{
+    /* color:#fff; */
+    margin-top:100px;
+    text-align: center;
+    font-size: 28px;
+}
+.part2 .container div .span4{
+    height: 180px;
+    background: #fff;
+    /* opacity: 0.7; */
+    color:#313131;
+    text-align: center;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+.part3{
+    border-top: 1px solid #ccc;
+}
+.part3 .container h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 26px;
+}
+
+.commi_te{
+    width:20%;
+    display:inline-block;
+    height:120px;
+    background: url(../img/gun_01.png) center center no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    font-size:48px;
+    line-height: 120px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.icon2{
+    background: url(../img/gun_02.png) center center no-repeat;
+    background-color: #f6f6f6;
+}
+.icon3{
+    background: url(../img/gun_03.png) center center no-repeat;
+    background-color: #f6f6f6;
+}
+.icon4{
+    background: url(../img/gun_04.png) center center no-repeat;
+    background-color: #f6f6f6;
+}
+.icon5{
+    background: url(../img/gun_05.png) center center no-repeat;
+    background-color: #f6f6f6;
+}
+.icon6{
+    background: url(../img/gun_06.png) center center no-repeat;
+    background-color: #f6f6f6;
+}
+.icon7{
+    background: url(../img/gun_07.png) center center no-repeat;
+    background-color: #f6f6f6;
+}
+.icon8{
+    background: url(../img/gun_08.png) center center no-repeat;
+    background-color: #f6f6f6;
+}
+.commi_text{
+    width:77%;
+    display:inline-block;
+    height:120px;
+    vertical-align: middle;
+    padding:25px;
+    box-sizing: border-box;
+    background:#f6f6f6;
+    color: #313131;
+}
+.part4{position: relative;margin-top:120px;}
+.qiang_bg{
+    background: url(../img/qiang_bg.png) center center no-repeat;
+    background-size: cover;
+    height: 630px;
+    position: relative;
+}
+.benefit{
+    width:990px;
+    height: 430px;
+    background: #fff;
+    background-color: rgba(255,255,255,0.96);
+    margin:100px auto;
+    text-align: center;
+    position: relative;
+}
+.benefit h2{
+    font-size:28px;
+    padding-top: 60px;
+}
+.ben_icon{
+display: inline-block;
+    width:28px;
+    height: 28px;float: left;margin-top:33px;
+    margin-right:15px;
+}
+.benefit span{
+    color:#313131;
+}
+.ben_icon1{
+    background: url(../img/gun_icon_7.png) center center no-repeat;    
+}
+.ben_icon2{
+    background: url(../img/gun_icon_8.png) center center no-repeat;
+}
+.ben_icon3{
+    background: url(../img/gun_icon_9.png) center center no-repeat;
+}
+.ben_icon4{
+    background: url(../img/gun_icon_10.png) center center no-repeat;
+}
+.v_line{
+    display: inline-block;
+    height: 144px;
+    width:2px;
+    background: #bfbfbf;
+    position: absolute;
+    top: 35%;
+    left: 49%;
+}
+.part5{
+    margin-top:75px;
+    margin-bottom: 70px;
+}
+.part5 h2{
+    font-size:28px;
+    margin-top: 117px;
+}
+.wisdom{
+    width:100%;
+    height: 410px;
+    background: url(../img/wisdom.png) center center no-repeat;
+}
+.wisdom h2{
+    color:#fff;
+    font-size:28px;
+    text-align: center;
+    margin-top:140px;
+}
+.wisdom div{
+    text-align: center;
+    color:#fff;
+}
+.part7{
+    height: 500px;
+    background: #f1f2f3;
+}
+.part7 h2{
+    font-size:28px;
+    margin-top:170px;
+}

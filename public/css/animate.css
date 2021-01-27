@@ -1,0 +1,690 @@
+.disney_part3 .disney_t.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+
+}
+.disney_part3 .disney_l.on{
+	animation:moveTop .6s ease both;
+	-weblit-animation:moveTop .6s ease both;
+	animation-delay: .2s;
+	-webkit-animation-delay: .2s;
+}
+.disney_part3 .disney_r.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: .3s;
+	-webkit-animation-delay: .3s;
+}
+.disney_part4 .disney_b.on{
+	animation:moveBottom .6s ease both;
+	-webkit-animation:moveBottom .6s ease both;
+	animation-delay: .4s;
+	-webkit-animation-delay: .4s;
+}
+.disney_part4 .disney_l.on{
+	animation:moveLeft .6s ease both;
+	-weblit-animation:moveLeft .6s ease both;
+	animation-delay: .2s;
+	-webkit-animation-delay: .2s;
+}
+.disney_part4 .disney_r.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: .3s;
+	-webkit-animation-delay: .3s;
+}
+.disney_part5 .disney_t.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+
+}
+.disney_part5 .disney_l.on{
+	animation:moveTop .6s ease both;
+	-weblit-animation:moveTop .6s ease both;
+	animation-delay: .2s;
+	-webkit-animation-delay: .2s;
+}
+.disney_part5 .disney_r.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: .3s;
+	-webkit-animation-delay: .3s;
+}
+.disney_part6 .disney_b.on{
+	animation:moveBottom .6s ease both;
+	-webkit-animation:moveBottom .6s ease both;
+	animation-delay: .4s;
+	-webkit-animation-delay: .4s;
+}
+.disney_part6 .disney_l.on{
+	animation:moveTop .6s ease both;
+	-weblit-animation:moveTop .6s ease both;
+	animation-delay: .2s;
+	-webkit-animation-delay: .2s;
+}
+.disney_part6 .disney_r.on{
+	animation:moveLeft .6s ease both;
+	-weblit-animation:moveLeft .6s ease both;
+	animation-delay: .3s;
+	-webkit-animation-delay: .3s;
+}
+.D_part5_top_r.on{
+	animation: moveBottom 0.6s ease both;
+	-webkit-animation: moveBottom 0.6s ease both;
+}
+.D_part5_bottom_r.on{
+	animation: moveBottom 0.6s ease both;
+	-webkit-animation: moveBottom 0.6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.D_part5_top_l.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.D_part5_bottom_l_one.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.D_part5_bottom_l_two.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.D_7_title.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: .3s;
+	-webkit-animation-delay: .3s;
+}
+.D_p7three.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: .4s;
+	-webkit-animation-delay: .4s;
+}
+.D_p7one.on{
+	animation: moveBottom 0.6s ease both;
+	-webkit-animation: moveBottom 0.6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.f_part6  .move_t.on{
+	animation: moveBottom01 0.6s ease both;
+	-webkit-animation: moveBottom01 0.6s ease both;
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.f_part6  .f_two.on{
+	animation: moveBottom02 0.6s ease both;
+	-webkit-animation: moveBottom02 0.6s ease both;
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+.f_5_t_l.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.move_b.on{
+	animation: moveBottom 0.6s ease both;
+	-webkit-animation: moveBottom 0.6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.change_width.on{
+	animation: _width 1s ease both;
+	-webkit-animation: _width 1s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.energy_conservation.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.D_p7two.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OS_part1 .os_tilte.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+
+}
+.OS_part1 .OS_part1_inner.on{
+	animation: moveBottom 0.6s ease both;
+	-webkit-animation: moveBottom 0.6s ease both;
+
+}
+.OS_part1 .OS_mess.on{
+	animation: opacity0To1 1.6s ease-in-out both;
+	-webkit-animation: opacity0To1 1.6s ease-in-out both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.OS_part1 .delay03.on{
+	animation: moveLeft 1.2s ease-in-out both;
+	-webkit-animation: moveLeft 1.2s ease-in-out both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.OS_part1 .delay04.on{
+	animation: moveLeft 1.2s ease-in-out both;
+	-webkit-animation: moveLeft 1.2s ease-in-out both;
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+.OS_part1 .delay05.on{
+	animation: moveLeft 1.2s ease-in-out both;
+	-webkit-animation: moveLeft 1.2s ease-in-out both;
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+.OS_part1 .delay06.on{
+	animation: moveLeft 1.2s ease-in-out both;
+	-webkit-animation: moveLeft 1.2s ease-in-out both;
+	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
+}
+.OS_part2 .OS_animation.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OS_part5 .OS_animation.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OS_part6 .OS_part6_img.on{
+	animation:moveTop01 .6s ease both;
+	-webkit-animation:moveTop01 .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OS_part6 .title_mess.on{
+	animation: opacity0To1 1s ease-in-out both;
+	-webkit-animation: opacity0To1 1s ease-in-out both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.OS_part6 .a_part6.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
+}
+.OS_part6 .delay01.on{
+	animation: moveLeft 1.2s ease-in-out both;
+	-webkit-animation: moveLeft 1.2s ease-in-out both;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+.OS_part6 .delay02.on{
+	animation: moveLeft 1.2s ease-in-out both;
+	-webkit-animation: moveLeft 1.2s ease-in-out both;
+	animation-delay: 1.1s;
+	-webkit-animation-delay: 1.1s;
+}
+.OS_part7 .title_mess.on{
+	animation: opacity0To1 1s ease-in-out both;
+	-webkit-animation: opacity0To1 1s ease-in-out both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OS_part7 .OS_part7_img.on{
+	animation:moveTop01 1.2s ease both;
+	-webkit-animation:moveTop01 1.2s ease both;
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.OSD2_title.on{
+	animation: opacity0To1 0.6s ease-in-out both;
+	-webkit-animation: opacity0To1 0.6s ease-in-out both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OSD_part2 .delay01.on{
+	animation: moveLeft 0.6s ease-in-out both;
+	-webkit-animation: moveLeft 0.6s ease-in-out both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OSD_part2 .delay02.on{
+	animation: moveLeft 0.6s ease-in-out both;
+	-webkit-animation: moveLeft 0.6s ease-in-out both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.OSD_part4 .OS_animation.on{
+	animation:moveTop01 1.2s ease-in-out both;
+	-webkit-animation:moveTop01 1.2s ease-in-out both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.pro_part3 .pro_le_Box.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.pro_part3 .pro_mini.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.pro_one.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+}
+.pro_two.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.pro_three.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.pro_part8_left_contect.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.pro_part8_right.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.pro_part8_right_US.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.OSF_part2 .OS_num .delay03.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.OSF_part2 .OS_num .delay04.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.OSF_part2 .OS_num .delay05.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.OSF_part2 .OSF_title.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+.OSF_part4 .OSF_part4_liOne img.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.OSF_part4 .OSF_part4_liOne p.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.OSF_part4 .OSF_part4_liTwo img.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.OSF_part4 .OSF_part4_liTwo p.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+.OSF_part4 .OSF_part4_liThree img.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+}
+.OSF_part4 .OSF_part4_liThree p.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 1.1s;
+	-webkit-animation-delay: 1.1s;
+}
+.OSF_part4 .OSF_part1_info1.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+}
+.OSF_part5 .OSF_title.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.sf_part2 .sf_part2_list .delay01.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.sf_part2 .sf_part2_list .delay02.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.sf_part2 .sf_part2_list .delay03.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.sf_part4 .sf_part4_img.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.sf_part4 .sf_part4_info .delay01.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.sf_part4 .sf_part4_info .delay02.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.sf_part4 .sf_part4_info .delay03.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.sf_part4 .sf_part4_info .delay04.on{
+	animation:moveLeft .6s ease both;
+	-webkit-animation:moveLeft .6s ease both;
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.sf_part6  img.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.sfd_part3 .sfd_part3_img img.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.sfd_part5_img img.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.sfd_part6 .sfd_top img.on{
+	animation:moveBottom .6s ease both;
+	-webkit-animation:moveBottom .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.sfd_part6 .sfd_bottom img.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.sfd_part6 .sfd_part6_title.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.sff_part3 .sff_part3_bg.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.sff_part3 .sff_part3_bg_US.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+
+
+#box_one.on{
+	animation:moveImg .6s ease both;
+	-webkit-animation:moveImg .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+
+#box_two.on{
+	animation:moveImgTwo .6s ease both;
+	-webkit-animation:moveImgTwo .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+#box_three.on{
+	animation:moveImgThree .6s ease both;
+	-webkit-animation:moveImgThree .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.sff_part5 .battery img:nth-of-type(1).on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.sff_part5 .battery img:nth-of-type(2).on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+.sff_part5 .battery img:nth-of-type(3).on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+.sff_part5 .battery img:nth-of-type(4).on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
+}
+.HISS_Safe_threeImg.on {
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.place01.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+.place02.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.place03.on{
+	animation:moveRight .6s ease both;
+	-webkit-animation:moveRight .6s ease both;
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+.HISS_Safe_part4 .HISS_Safe_bg.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+.HISS_Safe_part7 .HISS_Safe_box.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.HISS_Safe_part1{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.HISS_Safe_title_img img:nth-of-type(2){
+	animation:opacity0To2 .6s ease both;
+	-webkit-animation:opacity0To2 .6s ease both;
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+}
+.HISS_Design_part1{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.HISS_Safe_title{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+.HISS_Safe_title1{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+}
+.HISS_Design_part4.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.HISS_Design_part6.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.HISS_Design_part8.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.HISS_Fun_part2 .HISS_Fun_cabinet.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.HISS_Fun_part2 .HISS_Fun_info.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.HISS_Fun_part4 .HISS_Fun_cabinet.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.HISS_Fun_part4 .HISS_Fun_info.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.step li:first-child.on{
+	animation:opacity0To1 .6s ease both;
+	-webkit-animation:opacity0To1 .6s ease both;
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+}
+.bg_content.on{
+	animation:moveBottom 2.0s ease both;
+	-webkit-animation:moveBottom 2.0s ease both;
+	animation-delay: 0s;
+	-webkit-animation-delay: 0s;
+}
+.bg_content.on a{
+	animation:opacity0To1 2s ease both;
+	-webkit-animation:opacity0To1 2s ease both;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+.other_content.on{
+	animation:moveBottom 2.0s ease both;
+	-webkit-animation:moveBottom 2.0s ease both;
+	animation-delay: 0s;
+	-webkit-animation-delay: 0s;
+}
+.other_content.on a{
+	animation:opacity0To1 2s ease both;
+	-webkit-animation:opacity0To1 2s ease both;
+	animation-delay: 1.0s;
+	-webkit-animation-delay: 1.0s;
+}
+
+.sf_part6 img.on{
+	animation:moveTop 1s ease both;
+	-webkit-animation:moveTop 1s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.sfd_part1 img:nth-of-type(2).on{
+	animation:moveTop 1s ease both;
+	-webkit-animation:moveTop 1s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.sfd_part1 img:nth-of-type(1).on{
+	animation:moveBottom 1s ease both;
+	-webkit-animation:moveBottom 1s ease both;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}

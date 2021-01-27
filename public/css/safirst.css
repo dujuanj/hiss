@@ -1,0 +1,439 @@
+.sf_part4 {
+    padding: 100px 0 105px 0;
+    /* background: #f7f7f7; */
+    position: relative;
+}
+.sf_part4_title {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+.sf_part4_title p {
+    line-height: 30px;
+    margin-top: 30px;
+}
+.sf_part4_title {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+.sf_part4_info {
+    padding: 0 64px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sf_part4_title a {
+    display: inline-block;
+    padding-top: 30px;
+    color: #0099ff;
+}
+.sf_part4_img {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 220px;
+    opacity: 0;
+}
+
+.sf_part4_mess p sub {
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+}
+
+sub {
+    bottom: -0.25em;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.sf_part4_mess {
+    text-align: center;
+    width: 25%;
+    float: left;
+    position: relative;
+    left: 80px;
+    opacity: 0;
+}
+.sf_part4_mess p {
+    font-size: 60px;
+    position: relative;
+    color: #0099ff;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+.sf_part5_title {
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    width: 545px;
+    left: 50%;
+    margin-left: -272px;
+}
+.sf_part5_title p {
+    line-height: 40px;
+    margin-top: 32px;
+}
+.sf_part5 .color_list {
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    margin-left: -150px;
+}
+.sf_part6 {
+    position: relative;
+    background: #fff;
+}
+.overHidden {
+    position: relative;
+    overflow: hidden;
+    height: 867px;
+}
+.sf_part6 .figure_bg {
+    background: url(../img/O6CBPU1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 867px;
+    position: relative;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    top: -100px;
+}
+.sf_part6_title {
+    width: 560px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.sf_part6_title h1 {
+    margin-bottom: 32px;
+    font-weight: 300;
+}
+.sf_part6_title p {
+    line-height: 40px;
+}
+.sf_part7 {
+    padding-bottom: 50px;
+    position: relative;
+    background: #fff;
+}
+.fr {
+    float: right;
+}
+.img_fontsize {
+    font-size: 0;
+}
+
+.sf_part7_bg {
+    width: 530px;
+}
+.fr {
+    float: right;
+}
+.sf_part7_info {
+    position: absolute;
+    width: 361px;
+    bottom: 34%;
+    left: 22%;
+    letter-spacing: 1px;
+}
+.sf_part7_info h1 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.sf_part7_info p {
+    line-height: 40px;
+    color: #07090f;
+}
+.sf_part7_info a {
+    display: inline-block;
+    margin-top: 30px;
+    color: #0099ff;
+}
+.sf_part8 {
+    padding-bottom: 100px;
+    background:#fff;
+}
+
+.OSF_part8_title {
+    width: 740px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.sf_part8 .OSF_part8_title {
+    width: 520px;
+}
+.sf_part8 .OSF_part8_title p {
+    margin-top: 32px;
+    line-height: 40px;
+}
+.OSF_part8_title p {
+    line-height: 30px;
+    font-weight: 100;
+}
+.sf_part8 .small_img_list {
+    margin-top: 65px;
+    padding-left: 18px;
+}
+.small_img_list {
+    margin-top: 80px;
+}
+.small_img_list {
+    width: 575px;
+    margin: 0 auto;
+}
+.small_img_list ul li {
+    width: 85px;
+    float: left;
+    text-align: center;
+    margin-right: 1.7%;
+}
+.small_img_list ul li img {
+    width: 60%;
+    text-align: center;
+}
+.sf_part8 .small_img_list p {
+    margin-top: 20px;
+}
+.small_img_list ul li p {
+    font-weight: 100;
+}
+p {
+    color: #333;
+}
+.sf_part9 .disney_part8 {
+    height: 400px;
+    position: relative;
+    background: #eeeeee;
+}
+.D_part10 .disney_part8 {
+    background: #EEEEEE;
+}
+.disney_part8 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: #f4ffeb;
+}
+.sf_part9 .disney_img {
+    width: 320px;
+    height: 320px;
+    top: 38px;
+}
+.disney_img {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 320px;
+    height: 320px;
+}
+.disney_img img {
+    width: 100%;
+    height: 100%;
+}
+.sf_part9 .disney_part8 .next_contect {
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.disney_part8 .next_contect {
+    width: 65%;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+.next_contect {
+    width: 570px;
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    float: right;
+    font-size: 16px;
+}
+.next_contect p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 16px;
+    color: #040404;
+}
+.next_contect h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040404;
+    margin-bottom: 20px;
+}
+.next_contect aside {
+    color: #040404;
+}
+.next_contect a {
+    display: block;
+    font-size: 16px;
+    color: #00baff;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+#leBox_info {
+    width: 100%;
+    height: 40px;
+    background: #4F4F4F;
+    position: relative;
+    /* display: none; */
+    z-index: 1000;
+}
+#leBox_info.on {
+    position: fixed;
+    top: 0;
+    transition: position 1.2s ease-in-out;
+    -webkit-transition: position 1.2s ease-in-out;
+    -moz-transition: position 1.2s ease-in-out;
+    -ms-transition: position 1.2s ease-in-out;
+    -o-transition: position 1.2s ease-in-out;
+}
+@media screen and (max-width: 900px) and (min-width: 800px) {
+    .sf_part3_content{
+        left:-9%;
+    }
+    .sf_part4_img{
+        left:-10%!important;
+    }
+    .sf_part4_title{
+        margin-left:18%;
+    }
+    .sf_part5_title p{
+        line-height: 27px!important;
+    }
+    .sf_part7_info {
+        left:6%!important;
+    }
+    .sf_part7_bg{
+        width:465px!important;
+    }
+    .hiss_header_content{
+        width: 823px!important;
+    }
+    .disney_img{
+        left: -15px;
+    }
+    .sf_part9 .disney_part8 .next_contect{
+        left:0px;
+    }
+}
+.sf_part2_list strong {
+    display: block;
+    font-style: normal;
+    opacity: 0;
+    font-weight: 400;
+    position: relative;
+    left: -80px;
+}
+.sf_part3 {
+    position: relative;
+}
+.sf_video_play {
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    text-align: center;
+    z-index: 999;
+    color: #FFF;
+}
+.hiss_header_content {
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.sf_part3_content {
+    width: 740px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    position: relative;
+    top: 120px;
+    margin-top: -140px;
+}
+.sf_part3_content h1 {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.sf_part3_content p {
+    color: #FFF;
+    line-height: 40px;
+    font-weight: 300;
+}
+.on{visibility: visible;}
+
+.ft16{
+  font-size: 16px!important;
+}
+
+.list-services li:first-child figure { 
+  float: left;
+   margin: 60px 15px 6px 0; 
+   border:none;
+   }
+   .list-services li:nth-child(2) figure { 
+  float: left;
+   margin: 40px 15px 6px 0; 
+   border:none;
+   }
+     .list-services li:nth-child(3) figure { 
+  float: left;
+   margin: 40px 15px 6px 0;
+   border:none; 
+   }
+     .list-services li:nth-child(4) figure { 
+  float: left;
+   margin: 40px 15px 6px 0;
+   border:none; 
+   }
+      .list-services li:nth-child(5) figure { 
+  float: left;
+   margin: 50px 15px 6px 0;
+   border:none; 
+   }
+   .ft14{
+     font-size: 14px;
+   }
+
+   .title{
+  background: none;
+  margin-top:130px;
+}
+.title i{
+  display: inline-block;
+  width:63px;
+  height: 63px;
+  background: url(img/index-title.png) no-repeat;
+  background-size:100%;
+  float:left;
+  margin-right:15px;
+  margin-top: 27px;
+}
+.title h4{
+  font-size:36px;
+  text-align: left;
+}
+.title h4 span{
+  font-size:28px;
+  color:#8a8a8a
+}
+
+

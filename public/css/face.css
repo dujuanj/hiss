@@ -1,0 +1,185 @@
+.part1{
+    height: 540px;
+    background: url(../img/face-part1.png) 10% center no-repeat;
+    background-size: cover;
+    background-color: #e3e4e5
+}
+.part2 h2{
+    font-size:28px;
+    margin-top:100px;
+    margin-left: 30px;
+}
+.OS_part1 p{
+    font-size: 16px;
+    color:#313131;
+    margin-bottom:12px;
+}
+.part3{
+    /* height: 420px; */
+    background: #f1f2f3;
+   
+}
+.part3 h2{
+    color:#313131;
+    font-size:28px;
+}
+.face_part3 div{
+    color:#313131; 
+}
+.part4{
+    /* height: 435px; */
+    margin-top:40px;
+    text-align: center;
+}
+.part4 h2{
+    font-size:28px;
+}
+.pt4_text {
+    width:30%;
+}
+.pt4_text p{
+    margin-top:15px;
+}
+.part5_bg{
+    /* height: 565px; */
+    /* background: url(../img/face_pt5_bg.png) center center no-repeat; */
+    background: #f1f2f3;
+    /* border:1px solid #ccc; */
+    padding: 115px 0;
+}
+.part5 .row div{
+    margin-right:25px;width:280px;height: 430px;
+    background: #fff;
+}
+.part5 .row p{
+    padding:15px;
+    color:#033333;
+}
+.part6 h2{
+    font-size: 28px;
+    color:#fff;
+}
+.wooden{
+    position: absolute;
+    top:140px;left:100px;
+}
+.wooden h2,.wooden div{
+    color:#313131
+}
+.glass{
+    position: absolute;
+    top:140px;right:160px;
+}
+.glass div{
+    color:#fff;
+}
+.part7 .img{
+    height: 290px;
+   
+    background: url(../img/face_pt7_bg.png) center center no-repeat;
+    background-size: cover;
+}
+.part7{
+    /* margin-top:20px; */
+    position: relative;
+    margin-bottom: 20px;
+}
+.part7 h2{
+    font-size:28px;
+    color:#fff;
+    margin-top:40px;
+    margin-bottom: 65px;
+}
+.part7 .container{
+    text-align: center;
+    color:#fff;
+}
+.part7 .container i{
+    display: inline-block;
+    width:26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-right:15px;
+}
+.pt7_icon1{
+    background: url(../img/face_pt7_icon1.png) center center no-repeat;
+}
+.pt7_icon2{
+    background: url(../img/face_pt7_icon2.png) center center no-repeat;
+}
+.pt7_icon3{
+    background: url(../img/face_pt7_icon3.png) center center no-repeat;
+}
+.pt7_icon4{
+    background: url(../img/face_pt7_icon4.png) center center no-repeat;
+}
+.pt8_text{
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+.pt8_text h2{
+    font-size:28px;
+}
+.pt8_text div{
+    color:#313131;
+}
+.part9{
+    margin:100px 0;
+}
+.pt9_text h2{
+    font-size:28px;
+}
+.pt9_text{
+    float:left;
+    margin-top:165px;
+    margin-left: 50px;
+}
+@media (max-width: 767px){
+    .part1{
+        height: 222px;
+    }
+    .part2 h2{
+        margin-top:30px!important;
+    }
+    .part2 .span4{
+        width:33%!important;
+    }
+    .resp_mt25{
+        margin-top:25px!important;
+    }
+    .part5 .row{
+        display: block!important;
+    }
+    .part5_bg{
+        border: none;
+        height: 100%;
+    }
+    .part5 .row div{
+        width: 100%;
+        margin:10px 0!important;
+    }
+    .part5 img{
+        width:100%!important;
+    }
+    .part6 img{
+        height: 320px!important;
+    }
+    .wooden{
+        left:5px!important;
+    }
+    .glass{
+        right: 5px;
+    }
+    .part9 img{
+        width: 100%;
+        height: 352px!important;
+        margin-left:0!important;
+        float: left;
+    }
+    .pt9_text{
+        margin-top:20px!important;
+    }
+   
+  
+}

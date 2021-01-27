@@ -1,0 +1,343 @@
+.f_part1 {
+    position: relative;
+    background: url(../img/f_001_02.jpg) center center no-repeat;
+    background-size: cover;
+    height: 868px;
+}
+.f_part1_title {
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    width: 637px;
+    margin-left: -318px;
+    left: 50%;
+}
+.f_part1_title h1 {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.f_part1_title p {
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.f_part2, .f_part3, .f_part5, .f_part6, .f_part7, .f_part8 {
+    margin-top: -5px;
+    overflow: hidden;
+    position: relative;
+}
+.f_part2 {
+    position: relative;
+    background: url(../img/f_003_02.jpg) center center no-repeat;
+    background-size: cover;
+    height: 1033px;
+}
+.f_part2 .f_part1_title h1, .f_part3 .f_part1_title h1 {
+    color: #FFF;
+}
+.f_part2 .f_part1_title p, .f_part3 .f_part1_title p {
+    color: #FFF;
+    letter-spacing: 3px;
+}
+.f_part1_title p {
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.f_part3 .f_part1_title {
+    width: 644px;
+    margin-left: -322px;
+}
+.f_part3 .f_part1_title p {
+    letter-spacing: 2px;
+}
+.f_part4 {
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 50px;
+}
+.f_content {
+    width: 1002px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.f_part4 video {
+    width: 1010px;
+    height: 100%;
+    margin-left: -2px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 80px;
+}
+.f_title {
+    position: absolute;
+    top: 8%;
+    width: 646px;
+    left: 50%;
+    margin-left: -323px;
+    text-align: center;
+}
+.f_title span {
+    display: block;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.replay, .replayNum {
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: -50px;
+    left: 50%;
+    cursor: pointer;
+}
+.replay a, .replayNum a {
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    color: #838383;
+    background: url(../img/replay.png) 21px 4px no-repeat;
+    background-size: 20px 20px;
+}
+.loadingV {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    top: 0;
+    text-align: center;
+    line-height: 569px;
+}
+.hiss_header_content {
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.f_5_t {
+    height: 650px;
+    position: relative;
+}
+.f_5_t_l {
+    width: 376px;
+    float: left;
+    margin-left: 100px;
+    line-height: 35px;
+    margin-top: 220px;
+    opacity: 0;
+}
+.f_5_t_l h2 {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    width: 430px;
+}
+.f_5_t_l p {
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.move_b {
+    opacity: 0;
+}
+.f_5_t_r {
+    width: 265px;
+    float: right;
+    position: absolute;
+    right: 140px;
+    z-index: 10;
+}
+.f_part6 {
+    height: 580px;
+    position: relative;
+    background: #F7F7F7;
+    overflow: hidden;
+}
+.f_5_t_l {
+    width: 376px;
+    float: left;
+    margin-left: 100px;
+    line-height: 35px;
+    margin-top: 220px;
+    opacity: 0;
+}
+.f_5_t_l h2 {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    width: 430px;
+}
+.f_part6 .move_t {
+    position: absolute;
+    z-index: 9;
+    right: 135px;
+    width: 275px;
+}
+.f_part6 .f_5_t_r {
+    top: -380px;
+}
+.f_two {
+    position: absolute;
+    z-index: 8;
+    right: 128px;
+    width: 300px;
+}
+.f_part8 {
+    width: 100%;
+    height: 400px;
+    background: #F7F7F7;
+}
+.f_p8_l {
+    float: left;
+    width: 460px;
+    height: 280px;
+    background: url(../img/f8_002.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    top: 50px;
+}
+.change_width {
+    width: 0;
+    height: 280px;
+    overflow: hidden;
+    position: absolute;
+}
+.f_p8_line {
+    position: absolute;
+    background: url(../img/line_03.png) center center no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 280px;
+}
+.energy_conservation {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    opacity: 0;
+    text-align: right;
+}
+.energy_conservation span {
+    color: #00b4ff;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 0;
+}
+.f_p8_r {
+    float: left;
+    height: 100%;
+    width: 452px;
+    margin-left: 90px;
+    position: relative;
+}
+.battery {
+    float: left;
+    width: 80px;
+    position: relative;
+    top: 50%;
+    margin-top: -88px;
+}
+.equal {
+    font-size: 46px;
+    width: 100px;
+    height: 50px;
+    float: left;
+    position: relative;
+    top: 50%;
+    margin-top: -25px;
+    text-align: center;
+}
+.f_num {
+    float: left;
+    width: 160px;
+    height: 160px;
+    border: 3px solid #00b4ff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    margin-top: -82px;
+}
+.f_num i {
+    font-size: 40px;
+    color: #00b4ff;
+}
+.f_num p {
+    font-size: 20px;
+}
+.f_part9 {
+    position: relative;
+    background: #F5F5F5;
+    background: url(../img/f_008_02.jpg) center center no-repeat;
+    background-size: cover;
+    height: 769px;
+}
+.f_part10 {
+    height: 400px;
+    position: relative;
+}
+.f_part10 img {
+    width: 410px;
+    position: relative;
+    top: 70px;
+}
+next_contect {
+    width: 570px;
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    float: right;
+    font-size: 16px;
+}
+.next_contect p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 16px;
+    color: #040404;
+}
+.next_contect h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040404;
+    margin-bottom: 20px;
+}
+next_contect aside {
+    color: #040404;
+}
+.next_contect a {
+    display: block;
+    font-size: 16px;
+    color: #00baff;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+.f_num span {
+    color: #00b4ff;
+    display: block;
+    font-size: 24px;
+    margin-top: 32px;
+}
+.f_num i {
+    font-size: 40px;
+    color: #00b4ff;
+}
+i {
+    font-style: normal;
+}
+@media screen and (max-width: 1100px) and (min-width: 800px){
+    .next_contect{
+        width:410px!important;
+        margin-right: 160px;
+    }
+  
+}

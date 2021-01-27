@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>智普信科技</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/inner.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="demo/switcher.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/footer-color.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/rs-plugin/settings.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/animate.min.css" type='text/css'>
+    <link rel="stylesheet" href="css/elements.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <style>
+        .hiss_header_content {
+            width: 1002px;
+            height: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+        .on {
+            visibility: visible;
+        }
+        .ft16 {
+            font-size: 16px !important;
+        }
+        .list-services li:first-child figure {
+            float: left;
+            margin: 60px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(2) figure {
+            float: left;
+            margin: 40px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(3) figure {
+            float: left;
+            margin: 40px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(4) figure {
+            float: left;
+            margin: 40px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(5) figure {
+            float: left;
+            margin: 50px 15px 6px 0;
+            border: none;
+        }
+        .ft14 {
+            font-size: 14px;
+        }
+        .title {
+            background: none;
+            margin-top: 130px;
+        }
+        .title i {
+            display: inline-block;
+            width: 63px;
+            height: 63px;
+            background: url(img/index-title.png) no-repeat;
+            background-size: 100%;
+            float: left;
+            margin-right: 15px;
+            margin-top: 27px;
+        }
+        .title h4 {
+            font-size: 36px;
+            text-align: left;
+        }
+        .title h4 span {
+            font-size: 28px;
+            color: #8a8a8a
+        }
+        .part3 p {
+            font-size: 20px;
+        }
+        [class*=' imghvr-'],
+        [class^=imghvr-] {
+            background-color: rgba(115, 113, 114, .7)
+        }
+        .D_part10 .disney_part8 {
+            background: #EEEEEE;
+        }
+        .sf_part9 .disney_part8 {
+            height: 400px;
+            position: relative;
+            background: #eeeeee;
+        }
+        .disney_part8 {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            background: #f4ffeb;
+        }
+        .hiss_header_content {
+            width: 1002px;
+            height: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+        .sf_part9 .disney_img {
+            width: 180px;
+            height: 320px;
+            top: 38px;
+        }
+        .disney_img {
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            width: 320px;
+            height: 320px;
+        }
+        .disney_img img {
+            width: 100%;
+            height: 100%;
+        }
+        .sf_part9 .disney_part8 .next_contect {
+            position: relative;
+            left: 50px;
+            top: 100px;
+        }
+        .disney_part8 .next_contect {
+            width: 65%;
+            position: relative;
+            left: 50px;
+            top: 90px;
+        }
+        .next_contect {
+            width: 570px;
+            display: inline-block;
+            position: relative;
+            top: 90px;
+            float: right;
+            font-size: 16px;
+        }
+        .next_contect {
+            width: 570px;
+            display: inline-block;
+            position: relative;
+            top: 90px;
+            float: right;
+            font-size: 16px;
+        }
+        .next_contect p {
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 45px;
+            margin-bottom: 16px;
+            color: #040404;
+        }
+        .next_contect h2 {
+            font-size: 28px;
+            font-weight: 500;
+            color: #040404;
+            margin-bottom: 20px;
+        }
+        .next_contect aside {
+            color: #040404;
+        }
+        .next_contect a {
+            display: block;
+            font-size: 16px;
+            color: #00baff;
+            position: absolute;
+            right: 0;
+            bottom: -30px;
+        }
+        @keyframes moveLeft {
+            0% {
+                opacity: 0
+            }
+            100% {
+                transform: translateX(-19px);
+                opacity: 1;
+            }
+        }
+        @media screen and (max-width: 1100px) and (min-width: 800px){
+            .prt5ani h2{
+                font-size:42px;
+            }
+            .next_contect{
+        width:410px!important;
+        margin-right: 280px;
+    }
+        }
+    </style>
+</head>
+<body class="home-page stretched">
+    <div id="wrapper">
+        <!--==============================header=================================-->
+        <div id='head' class=" clearfix" style='height: 60px;
+        background: #fff;
+        z-index: 1000;
+        width: 100%;'>
+            <!-- Logo & Navigation -->
+            <div class='header' style='height: 60px;background:#fff;' id='header'>
+                <div class="container">
+                    <div class="row ">
+                        <div class="span12" style='height: 60px;'>
+                            <!-- Logo -->
+                            <h1 class="brand brand_" style='margin-top:12px;'><a href="index.html"><img
+                                        src="img/index_logo.png" alt=""></a></h1>
+                            <!-- Navigation -->
+                            <div class="navbar navbar_">
+                                <div class="container">
+                                    <!--=========== menu ===============-->
+                                    <div class="nav-collapse nav-collapse_ collapse">
+                                        <ul class="nav sf-menu">
+                                            <li class=" sub-menu main-menu" style='margin-right:15px;padding: 0 10px;'>
+                                                <a class="" href="product-center.html">产品中心</a>
+                                                <ul class="sub_sub_menu product" style='top:46px;'>
+                                                    <a href="safirst.html">
+                                                        <dl style='margin-left:30%;text-align: center;margin-top:40px;'>
+                                                            <dt>
+                                                                <img src="./img/_icon_product_safirst.png" alt="">
+                                                            </dt>
+                                                            <dd
+                                                                style='margin-left:-2px;font-size:14px;margin-top:16px;'>
+                                                                Safirst</dd>
+                                                            <dd style='margin-left:-2px;font-size:14px;'>初柜</dd>
+                                                        </dl>
+                                                    </a>
+                                                    <a href="leBox.html">
+                                                        <dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+                                                            <dt>
+                                                                <img src="./img/_icon_product_le.png" alt="">
+                                                            </dt>
+                                                            <dd
+                                                                style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+                                                                Le-Box</dd>
+                                                            <dd style='margin-left:-2px;font-size:14px;'>乐盒</dd>
+                                                        </dl>
+                                                    </a>
+                                                    <a href="O_S.summary.html">
+                                                        <dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+                                                            <dt>
+                                                                <img src="./img/_icon_product_os.png" alt="">
+                                                            </dt>
+                                                            <dd
+                                                                style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+                                                                O.S Cabinet</dd>
+                                                            <dd style='margin-left:-2px;font-size:14px;'>智能办公柜</dd>
+                                                        </dl>
+                                                    </a>
+                                                    <a href="HISSSafe-summary.html">
+                                                        <dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+                                                            <dt>
+                                                                <img src="./img/_icon_product_safe.png" alt="">
+                                                            </dt>
+                                                            <dd
+                                                                style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+                                                                Hiss Safe</dd>
+                                                            <dd style='margin-left:-2px;font-size:14px;'>智能保险柜</dd>
+                                                        </dl>
+                                                    </a>
+                                                    <a href="smart-access.html">
+                                                        <dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+                                                            <dt>
+                                                                <img src="./img/_icon_product_access.png" alt="">
+                                                            </dt>
+                                                            <dd
+                                                                style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+                                                                Smart Access</dd>
+                                                            <dd style='margin-left:-2px;font-size:14px;'>智能门禁</dd>
+                                                        </dl>
+                                                    </a>
+                                                </ul>
+                                            </li>
+                                            <li class="sub-menu main-menu" style='margin-right:50px;padding: 0 10px;'>
+                                                <a class="" href="download-app.html">技术服务</a>
+                                                <ul class="sub_sub_menu" style='width:110px;'>
+                                                    <li>
+                                                        <a href="download-app.html" class="sub_title"
+                                                            img='img/jiaju.png'>下载APP</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="download-app.html#manual" class="sub_title"
+                                                            img='img/gongyu.png'>下载使用手册</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="sub-menu main-menu" style='margin-right:0;padding: 0;'>
+                                                <a data-toggle="modal" href="#myModal"
+												style='color:#28a5fa!important'>在售商城</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<!-- Modal -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+		aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel"> <i class="sales"></i> 请选择在售商城</h3>
+		</div>
+		<div class="modal-body">
+			<div style='display: flex;'>
+				<div>
+					<a href="https://mall.jd.com/index-900497.html" target="_blank"><img src="./img/img_code_j.png" alt=""></a>
+					<p style='text-align: center;font-weight: bold;'>点击进入商城 或 <br>京东APP扫码进入</p>
+				</div>
+				<div>
+					<a href="https://hissznsb.tmall.com/" target="_blank"><img src="./img/img_code_t.png" alt=""></a>
+					<p style='text-align: center;font-weight: bold;'>点击进入商城 或 <br>淘宝APP扫码进入</p>
+				</div>
+				<div>
+					<a href="http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA5NjIyODYyNQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect" target="_blank"><img src="./img/img_code_w.png" alt=""></a>
+					<p style='text-align: center;font-weight: bold;margin-top:16px'>微信扫码进入</p>
+				</div>
+			</div>
+		</div>
+	</div>
+        <div id='leBox_info' class="breadcrumb-wrapper" style='height:44px;background: #111'>
+            <div class="container">
+                <div class="header" style='background:transparent;padding:0'>
+                    <h2 style='color:#fff;font-size: 18px;'>智能门禁</h2>
+                    <ul class="breadcrumb fright sub_nav" style='padding-bottom: 0'>
+                        <li><a href="smart-access.html">概述</a> &nbsp;&nbsp;&nbsp;&nbsp; </li>
+                        <li> <a href="access-design.html"  class='sub_active'>设计 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        <li><a href="access-function.html">功能 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        <li style='margin-right:15px;'><a href="safirstt_technical.html">技术规格</a> </li>
+                        <!-- <li><a href="https://mall.jd.com/index-900497.html" target="_blank">购买</a> </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--==============================content=================================-->
+        <section id="content" style='padding-bottom: 0'>
+            <div class="part1 OS_part1">
+                <div class="container">
+                    <div class="delay03" style='transform: translateX(580px)'>
+                        <h2 style='margin-top:100px;'>简约高端设计</h2>
+                        <p style='text-align: center;font-size: 18px;margin-bottom: 50px;'>7英寸高清液晶触摸屏，1024x600高清分辨率，操作页面简洁易用
+                        </p>
+                    </div>
+                    <div style='text-align: center;'>
+                        <img src="./img/door_des_img_1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="part2" style='background: #e9e9e9'>
+                <div class="container">
+                    <div class="prt2ani" style='visibility: hidden;'>
+                        <h2 style='margin-top:100px;'>高端精致工艺</h2>
+                        <p style='text-align: center;font-size: 18px;margin-bottom: 50px;'>
+                                精巧工艺与科技融合，太空银配色，铝合金外壳，线条流畅，防水防强光</p>
+                    </div>
+                </div>
+                <div style='text-align: center;'>
+                    <img src="./img/door_des_img_2.png" alt="">
+                </div>
+            </div>
+            <!-- part3 -->
+            <div class="part3" style='background: #c9d0d8;margin-top:20px;'>
+                <div class="">
+                    <div style='position: relative;'>
+                        <img src="./img/door_des_img_3.png" alt="">
+                        <div class='prt3ani' style='width:600px;visibility: hidden;position: absolute;top:10%;left:10%;'>
+                            <h2 style='text-align: left;'>支持离线</h2>
+                            <p>全新面部识别算法</p>
+                            <p>性能稳定流畅</p>
+                            <p>支持离线工作模式</p>
+                            <p>断网仍可人脸开启</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- part4 -->
+            <div class="part4">
+                    <div class="container">
+                            <div class="prt4ani" style='visibility: hidden;'>
+                                <h2 style='margin-top:60px;'>精准识别</h2>
+                                <p style='text-align: center;font-size: 18px;margin-bottom:70px;'>
+                                        黑暗环境下自动开启补光灯，夜间也能精准识别</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./img/door_des_img_4.png" alt="">
+                        </div>
+            </div>
+            <!-- part5 -->
+            <div class="part5" style='margin-bottom:40px;margin-top:20px;'>
+                <div class="" style='position: relative;'>
+                    <img src="./img/door_des_img_5.png" alt="">
+                    <div class="prt5ani" style='position: absolute;top:10%;left:42%;color:#fff;text-align: center;visibility: hidden;'>
+                        <h2 style='color:#fff;'>功能强大</h2>
+                        <p>200万像素红外双目摄像头</p>
+                        <p>3.2Ghz微波模块</p>
+                        <p>面部感应距离0.5m-3m</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sf_part9">
+                <div class="D_part10 ">
+                    <div class="disney_part8">
+                        <div class="hiss_header_content">
+                            <div class="disney_img">
+                                <img src="img/door_img_pad.png">
+                            </div>
+                            <div class="next_contect">
+                                <span>下一步</span>
+                                <p>精准快速识别人脸</p>
+                                <h2 style='text-align: left;'>「自由出入 轻松开门」</h2>
+                                <aside>了解 智能门禁 的功能。</aside>
+                                <a href="access-function.html">下一章：功能 &gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================footer=================================-->
+        <footer>
+            <!-- footer 2 -->
+            <div id="copyrights" class="footer-2 footer-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12" style="font-size:14px;">
+                            Copyright © 2012-2019. 智普信科技 ｜
+                            <a href="http://www.beian.miit.gov.cn"> <span style="color:#c0c0c0;">京ICP备09017907</span> </a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src='js/jquery.js'></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.sliderTabs.js"></script>
+    <!-- jQuery Slider  -->
+    <script type="text/javascript" src="js/rs-plugin/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="js/rs-plugin/jquery.themepunch.revolution.min.js"></script>
+    <!-- Elastislider  -->
+    <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+    <script type="text/javascript" src="js/tabs.js"></script>
+    <!-- Sitemap  -->
+    <script type="text/javascript" src="js/sitemap.js"></script>
+    <!-- Navigation  -->
+    <script type="text/javascript" src="js/nav-small.js"></script>
+    <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <!-- Metro Style  -->
+    <script type="text/javascript" src="js/boxgrid.js"></script>
+    <script type="text/javascript" src="demo/switcher.js"></script>
+    <script type='text/javascript' src='js/scroll01.js'></script>
+    <script type='text/javascript' src='js/prefixfree.js'></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <!-- Elastislider  -->
+    <script>
+        $('.OS_part1 .delay03').addClass('on');
+        $('.product').width($(window).width() + 20);
+        $('.suo_k').width($(window).width() + 20);
+        var leftpx = $('.product').parent().offset().left;
+        console.log($('.product').parent().offset().left);
+        $('.product').css('left', -leftpx - 10);
+        $(function () {
+            var winWidth, winHeight;
+            var win_h = $(window).height() * 0.64;
+            var win_height = $(window).height() * 1;
+            function funHeight(n, c) {
+                var F_high = $(window).scrollTop();
+                var t = $(n).offset().top;
+                if (F_high > t - win_h) {
+                    $(c).addClass("animated fadeInUp");
+                }
+                if (F_high == 0) {
+                    // $(c).removeClass("animated fadeInUp");
+                }
+            };
+            $(window).scroll(function () {
+                funHeight(".part2", ".prt2ani");
+                funHeight(".part3", ".prt3ani");
+                funHeight(".part4", ".prt4ani");
+                funHeight(".part5", ".prt5ani");
+            })
+        });</script>
+    
+</body>
+</html>

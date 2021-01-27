@@ -1,0 +1,493 @@
+.HISS_Safe_part11 {
+    width: 100%;
+    background: #f6f6f6;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.HISS_Safe_part1 {
+    animation: moveTop .6s ease both;
+    -webkit-animation: moveTop .6s ease both;
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+}
+.HISS_Safe_part1 {
+    position: relative;
+    opacity: 0;
+    top: 200px;
+}
+.HISS_Safe_title {
+    animation: opacity0To1 .6s ease both;
+    -webkit-animation: opacity0To1 .6s ease both;
+    animation-delay: 0.7s;
+    -webkit-animation-delay: 0.7s;
+}
+.HISS_Safe_title {
+    color: #4c4c4c;
+    width: 740px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-top: 85px;
+    opacity: 0;
+}
+.HISS_Safe_title h1 {
+    color: #4c4c4c;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.HISS_Safe_title p {
+    color: #4c4c4c;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.HISS_Safe_title a {
+    color: #00ccff;
+}
+.HISS_Safe_title_img {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 0;
+    position: relative;
+    margin-top: 75px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.HISS_Safe_part3 {
+    height: 1034px;
+    background: #f6f6f6;
+    position: relative;
+}
+.HISS_Safe_threeImg.on {
+    animation: moveRight .6s ease both;
+    -webkit-animation: moveRight .6s ease both;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+.HISS_Safe_threeImg {
+    width: 726px;
+    height: 890px;
+    background: url(../img/HISS_Safe_003.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 50%;
+    left: -80px;
+    opacity: 0;
+    margin-top: -445px;
+}
+.place01.on {
+    animation: moveRight .6s ease both;
+    -webkit-animation: moveRight .6s ease both;
+    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+}
+.place01 {
+    position: absolute;
+    left: 45px;
+    bottom: 480px;
+    opacity: 0;
+}
+.HISS_Safe_mess {
+    color: #4c4c4c;
+    font-size: 40px;
+    max-width: 150px;
+}
+.HISS_Safe_mess span {
+    position: relative;
+}
+.HISS_Safe_mess p {
+    color: #4c4c4c;
+    font-size: 14px;
+    line-height: 35px;
+}
+.HISS_Safe_mess sub {
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+}
+sub {
+    bottom: -0.25em;
+}
+.place02.on {
+    animation: moveRight .6s ease both;
+    -webkit-animation: moveRight .6s ease both;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+.place02 {
+    position: absolute;
+    left: 270px;
+    top: 265px;
+    opacity: 0;
+}
+.place03.on {
+    animation: moveRight .6s ease both;
+    -webkit-animation: moveRight .6s ease both;
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+}
+.place03 {
+    position: absolute;
+    left: 420px;
+    top: 110px;
+    opacity: 0;
+}
+.hiss_header_content {
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.HISS_Safe_part4 {
+    background: #FFF;
+    height: 640px;
+    overflow: hidden;
+    position: relative;
+}
+.HISS_Safe_part4 .HISS_Safe_bg {
+    width: 806px;
+    font-size: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.HISS_Safe_part4 .HISS_Safe_bg img {
+    position: relative;
+    top: -100px;
+    width: 100%;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+.HISS_Safe_part5 {
+    height: 867px;
+    padding: 50px 0;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f6f6f6;
+}
+.HISS_Safe_part5 p {
+    color: #4c4c4c;
+    font-size: 14px;
+}
+.title_HISS_Safe {
+    text-align: center;
+}
+.HISS_Safe_part5 .HISS_info, .HISS_part8_content .HISS_info {
+    width: 472px;
+    padding-left: 36px;
+    margin-left: 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.HISS_Safe_num {
+    position: relative;
+    left: 252px;
+    top: 70px;
+}
+.fl {
+    float: left;
+}
+.HISS_Safe_part5 .HISS_info h1, .HISS_part8_content .HISS_info h1 {
+    color: #4c4c4c;
+    margin-top: 80px;
+    font-weight: 500;
+}
+.HISS_Safe_part5 .HISS_info_mess p, .HISS_part8_content .HISS_info p {
+    font-size: 22px;
+    color: #4c4c4c;
+    margin-top: 80px;
+}
+.HISS_Safe_part5 p {
+    color: #4c4c4c;
+    font-size: 14px;
+}
+.HISS_Safe_part5 .HISS_info_mess span, .HISS_part8_content .HISS_info span {
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: 100;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    letter-spacing: 0px;
+    margin-top: 10px;
+    display: block;
+}
+.HISS_Safe_part5 .HISS_info_mess a, .HISS_part8_content .HISS_info a {
+    display: inline-block;
+    margin-top: 30px;
+    color: #0099ff;
+}
+.HISS_Safe_num_info {
+    margin-top: 60px;
+}
+.HISS_Safe_num_info span {
+    color: #00a0e9;
+    position: relative;
+    font-size: 56px;
+    font-weight: 300;
+}
+.HISS_Safe_num_info p {
+    line-height: 25px;
+    color: #4c4c4c;
+}
+.HISS_Safe_part6 {
+    position: relative;
+    background: #f6f6f6;
+    height: 730px;
+}
+.HISS_Safe_part6_content {
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+HISS_Safe_par6_title.on {
+    display: block;
+}
+.fr {
+    float: right;
+}
+.title_01 {
+    right: 100px;
+}
+.HISS_Safe_par6_title {
+    width: 338px;
+    position: absolute;
+    top: 130px;
+    display: none;
+    font-weight: 100;
+}
+.HISS_Safe_par6_title h1 {
+    color: #4c4c4c;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.HISS_Safe_par6_title p {
+    color: #8c8c8c;
+    line-height: 30px;
+}
+.title_02 {
+    left: 100px;
+}    
+.liNode {
+    text-align: center;
+    width: 80px;
+    position: relative;
+    left: 50%;
+    margin-left: -40px;
+    top: 15px;
+}   
+.liNode ul li.on {
+    border: 1px solid #6a6a6a;
+}            
+.liNode ul li {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #f6f6f6;
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+    position: relative;
+}
+.liNode ul li i {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #787878;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}   
+.liNode ul li:last-child {
+    margin-right: 0;
+} 
+.f2{
+    animation:f2 4.5s linear 1.5s  alternate;
+    -webkit-animation:f2 4.5s linear 1.5s  alternate;
+}
+@keyframes f2
+{
+0% {opacity:0;}
+20% {opacity:0;}
+40% {opacity:0.25;}
+60% {opacity:0.5;}
+80% {opacity:0.75;}
+100% {opacity:1;}
+}
+@-webkit-keyframes f2
+{
+0% {opacity:0;}
+20% {opacity:0;}
+40% {opacity:0.25;}
+60% {opacity:0.5;}
+80% {opacity:0.75;}
+100% {opacity:1;}
+} 
+.HISS_Safe_part7 {
+    position: relative;
+    background: #FFF;
+    height: 593px;
+    overflow: hidden;
+}  
+.HISS_Safe_box {
+    width: 38%;
+    margin: 0 auto;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    position: relative;
+    top: -100px;
+} 
+.HISS_Safe_part8 {
+    color: #f6f6f6;
+    position: relative;
+    height: 880px;
+    padding: 35px 0 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}           
+.HISS_Safe_part8 .hiss_header_content>p {
+    color: #adadad;
+    text-align: center;
+}
+.HISS_part8_fl {
+    margin-top: 43px;
+    margin-left: 40px;
+}
+.HISS_part8_fl_info {
+    text-align: center;
+    border: 2px solid #00a0e9;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.HISS_part8_fl_info>div {
+    position: relative;
+    top: 36px;
+    text-align: center;
+}
+.HISS_part8_fl p {
+    font-size: 46px;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+    color: #00a0e9;
+}
+.HISS_part8_fl span {
+    color: #4c4c4c;
+}
+.HISS_part8_content .HISS_info h1 {
+    color: #3a3a3a;
+} 
+.HISS_part8_fl p sub {
+    position: relative;
+    top: -1px;
+    font-size: 20px;
+} 
+.HISS_Safe_part9_bg {
+    height: 1095px;
+    background: url(../img/HISS_Safe-10.jpg) center center no-repeat;
+    background-size: cover;
+}   
+.HISS_Safe_part10 {
+    background: #333;
+    color: #4c4c4c;
+}  
+.disney_img {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 320px;
+    height: 320px;
+}  
+.disney_part8 .next_contect {
+    width: 65%;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+.next_contect {
+    width: 570px;
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    float: right;
+    font-size: 16px;
+}
+.disney_img img {
+    width: 100%;
+    height: 100%;
+}
+.HISS_Safe_part10 span {
+    color: #4c4c4c;
+}
+.HISS_Safe_part10 p {
+    color: #4c4c4c;
+}
+.next_contect p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 16px;
+    color: #040404;
+}
+.HISS_Safe_part10 h2 {
+    color: #4c4c4c;
+}
+.next_contect h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040404;
+    margin-bottom: 20px;
+}
+.HISS_Safe_part10 aside {
+    color: #4c4c4c;
+} 
+.next_contect a {
+    display: block;
+    font-size: 16px;
+    color: #00baff;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}   
+.HISS_Safe_part10 .disney_part8 {
+    background: #e6e6e6;
+}   
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    .next_contect{
+        width:410px!important;
+        margin-right: 160px;
+    }
+  .place03{
+    top:16px;
+  }
+  .place02 {
+    left: 246px;
+    top: 162px;
+}
+.place01{
+    bottom: 600px;
+}
+.HISS_Safe_num{
+    left:78px;
+}
+.HISS_Safe_part7{
+    height: auto;
+}
+.disney_part8 .next_contect{
+    left:102px;
+}
+}

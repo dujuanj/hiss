@@ -1,0 +1,135 @@
+.part1{
+    position: relative;
+    width:100%;
+    margin:0 auto;
+}
+.prt1_text{
+    position: absolute;
+    top: 37%;
+    width:100%;
+   
+    text-align: center;
+    
+}
+.delay03{
+    opacity: 0;
+    transform: translateX(380px)
+}
+@keyframes moveLeft{
+	0%{opacity: 0}
+	100%{transform: translateX(0px); opacity: 1}
+}
+.disney_part5 h2,.disney_part5 p{
+    opacity: 0;
+}
+.part7 .OS_part7{
+    opacity: 0;
+}
+.part7 .OS_part7.on{
+	animation:moveTop .6s ease both;
+	-webkit-animation:moveTop .6s ease both;
+
+}
+.sys a{
+    display: inline-block;
+    width:269.5px;
+    height:178px;
+    border:2px solid #eee;
+    background: url(../img/s_impor_ic_system_1.png) center 24px no-repeat;
+    background-size: 35%;
+    background-color:#eee;
+    text-align: center;
+    line-height: 280px;
+    font-size: 20px;
+}
+.sys{
+    margin-bottom: 15px;
+}
+.s2 a{
+    background: url(../img/s_impor_ic_system_2.png) center 24px no-repeat;
+    background-color:#eee;
+}
+.s3 a{
+    background: url(../img/s_impor_ic_system_3.png) center 24px no-repeat;
+    background-color:#eee;
+}
+.s4 a{
+    background: url(../img/s_impor_ic_system_4.png) center 24px no-repeat;
+    background-color:#eee;
+}
+.s5 a{
+    background: url(../img/s_impor_ic_system_5.png) center 24px no-repeat;
+    background-color:#eee;
+}
+.s6 a{
+    background: url(../img/s_impor_ic_system_6.png) center 24px no-repeat;
+    background-color:#eee;
+}
+.s7 a{
+    background: url(../img/s_impor_ic_system_7.png) center 24px no-repeat;
+    background-color:#eee;
+}
+.botsys li{
+    float:left;
+    margin-right:15px;
+}
+.sys a:hover{
+    background-color:#fff;
+    border:2px solid #218ed8;
+}
+@media screen and (max-width: 1200px) {
+    .sys a{
+        width: 219px;
+    height: 154px;
+    background-size: 25%;
+    line-height: 220px;
+    font-size:16px;
+    }
+    .baoguan_prt7 ul{
+        height: 525px!important;
+    }
+    .sys.s4{
+        margin-right:0px;
+    }
+    .botsys li{
+        margin-right:16px
+    }
+    .baoguan_prt7 div p{
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 980px) and (min-width: 800px) {
+   .baoguan .part1 h2{
+       margin-top:0;
+   }
+   .part4 h2{
+       margin-top:65px!important;
+   }
+   .sys a{
+    width:168.5px;
+    height: 106px;
+    background-size: 22%;
+    line-height: 170px;
+    font-size:14px;
+   }
+   .botsys li{
+       margin-right:11px;
+   }
+   .sys.s4{
+       margin-right:0px;
+   }
+   .baoguan_prt7 div{
+       top:50px!important;
+   }
+   .baoguan_prt7 div h2{
+       font-size:32px;
+   }
+   .baoguan_prt7 div p{
+       line-height: 40px;
+   }
+   .baoguan_prt7 ul{
+       height: 376px!important;
+   }
+}
+
+

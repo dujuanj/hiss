@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>智普信科技</title>
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/inner.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/footer-color.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<script src='js/jquery.js'></script>
+	<script src="js/jquery-ui-1.10.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+	<script type="text/javascript" src="js/tabs.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$.fn.fullpage({
+				anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+				afterLoad: function (anchorLink, index) {
+					if (index == 2) {
+						$('.section2').find('.se2img1').delay(500).animate({
+							left: '0'
+						}, 1500, 'easeOutExpo');
+						$('.section2').find('.se2img2').delay(500).animate({
+							right: '-75'
+						}, 1500, 'easeOutExpo');
+					};
+					if (index == 3) {
+						$('.section3').find('.sec3').fadeIn(1000);
+					};
+					if (index == 4) {
+						$('.section4').find('.sec4img').delay(500).animate({
+							right: '0'
+						}, 1500, 'easeOutExpo');
+					};
+					if (index == 5) {
+						$('.section5').find('.sec5img').delay(500).animate({
+							left: '0'
+						}, 1500, 'easeOutExpo');
+					}
+				},
+				navigation: true
+			});
+			$('.product').width($(window).width() + 20);
+			$('.suo_k').width($(window).width() + 20);
+			var leftpx = $('.product').parent().offset().left;
+			console.log($('.product').parent().offset().left);
+			$('.product').css('left', -leftpx - 10);
+		});
+	</script>
+</head>
+<body>
+	<div id='head' class=" clearfix" style='height: 60px;
+    background: #fff;
+    z-index: 1000;
+    position: fixed;
+    top:0;left:0;
+    width: 100%;'>
+		<!-- Logo & Navigation -->
+		<div class='header' style='height: 60px;background:#fff;' id='header'>
+			<div class="container">
+				<div class="row ">
+					<div class="span12" style='height: 60px;'>
+						<!-- Logo -->
+						<h1 class="brand brand_" style='margin-top:12px;'><a href="index.html"><img
+									src="img/index_logo.png" alt=""></a></h1>
+						<!-- Navigation -->
+						<div class="navbar navbar_">
+							<div class="container">
+								<!--=========== menu ===============-->
+								<div class="nav-collapse nav-collapse_ collapse">
+									<ul class="nav sf-menu">
+										<li class=" sub-menu main-menu" style='margin-right:15px;padding: 0 10px;'>
+											<a class="" href="product-center.html">产品中心</a>
+											<ul class="sub_sub_menu product" style='top:46px;'>
+												<a href="safirst.html">
+													<dl  style='margin-left:30%;text-align: center;margin-top:40px;'>
+														<dt>
+															<img src="./img/_icon_product_safirst.png" alt="">
+														</dt>
+														<dd style='margin-left:-2px;font-size:14px;margin-top:16px;'>
+															Safirst</dd>
+														<dd style='margin-left:-2px;font-size:14px;'>初柜</dd>
+													</dl>
+												</a>
+												<a href="leBox.html">
+													<dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+														<dt>
+															<img src="./img/_icon_product_le.png" alt="">
+														</dt>
+														<dd style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+															Le-Box</dd>
+														<dd style='margin-left:-2px;font-size:14px;'>乐盒</dd>
+													</dl>
+												</a>
+												<a href="O_S.summary.html">
+													<dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+														<dt>
+															<img src="./img/_icon_product_os.png" alt="">
+														</dt>
+														<dd style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+															O.S Cabinet</dd>
+														<dd style='margin-left:-2px;font-size:14px;'>智能办公柜</dd>
+													</dl>
+												</a>
+												<a href="HISSSafe-summary.html">
+													<dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+														<dt>
+															<img src="./img/_icon_product_safe.png" alt="">
+														</dt>
+														<dd style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+															Hiss Safe</dd>
+														<dd style='margin-left:-2px;font-size:14px;'>智能保险柜</dd>
+													</dl>
+												</a>
+												<a href="smart-access.html">
+													<dl style='margin-left:3%;text-align: center;margin-top:40px;'>
+														<dt>
+															<img src="./img/_icon_product_access.png" alt="">
+														</dt>
+														<dd style='margin-left:-2px;font-size:14px;;margin-top:16px;'>
+															Smart Access</dd>
+														<dd style='margin-left:-2px;font-size:14px;'>智能门禁</dd>
+													</dl>
+												</a>
+											</ul>
+										</li>
+										<li class="sub-menu main-menu" style='margin-right:50px;padding: 0 10px;'>
+											<a class="" href="download-app.html">技术服务</a>
+											<ul class="sub_sub_menu" style='width:110px;'>
+												<li>
+													<a href="download-app.html" class="sub_title"
+														img='img/jiaju.png'>下载APP</a>
+												</li>
+												<li>
+													<a href="download-app.html#manual" class="sub_title"
+														img='img/gongyu.png'>下载使用手册</a>
+												</li>
+											</ul>
+										</li>
+										<li class="sub-menu main-menu" style='margin-right:15px;padding: 0 10px;'>
+											<a data-toggle="modal" href="#myModal"
+												style='color:#28a5fa!important'>在售商城</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+		aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel"> <i class="sales"></i> 请选择在售商城</h3>
+		</div>
+		<div class="modal-body">
+			<div style='display: flex;'>
+				<div>
+					<a href="https://mall.jd.com/index-900497.html" target="_blank"><img src="./img/img_code_j.png" alt=""></a>
+					<p style='text-align: center;font-weight: bold;'>点击进入商城 或 <br>京东APP扫码进入</p>
+				</div>
+				<div>
+					<a href="https://hissznsb.tmall.com/" target="_blank"><img src="./img/img_code_t.png" alt=""></a>
+					<p style='text-align: center;font-weight: bold;'>点击进入商城 或 <br>淘宝APP扫码进入</p>
+				</div>
+				<div>
+					<a href="http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA5NjIyODYyNQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect" target="_blank"><img src="./img/img_code_w.png" alt=""></a>
+					<p style='text-align: center;font-weight: bold;margin-top:16px'>微信扫码进入</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="section section1">
+			<div class="container view-mrt" style='position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);'>
+				<div class="" style='float:left;'>
+					<div class="res9" style='font-size: 80px;margin-bottom: 60px;margin-top:20%;'>Safirst 初柜</div>
+					<div style='font-size:40px;margin-bottom: 80px;color:#767473;'>智慧核心 &nbsp;一目了然
+					</div>
+					<div style='font-size:18px;width:362px;line-height:26px;'>
+						自始至终我们的设计理念未变，只为带给你更好、更简便的用户体验。摒弃传统保险柜的繁复设计，将互联网连接、HISS安防系统与智能芯片，全部融入到小巧的柜体中。</div>
+				</div>
+				<div class="productres" style='float:right;position: absolute;right:1%;'>
+					<img class="se1img" src="./img/product_safirst.png" alt="" style='width:683px;height: 483px;'>
+				</div>
+			</div>
+		</div>
+		<div class="section section2">
+			<div class="container">
+				<div class="view-mrt"
+					style='color:#fff;margin-top:14%;text-align: center;font-size: 80px;margin-bottom: 60px;'>Le-Box 乐盒
+				</div>
+				<div style='color:#fff;text-align: center;font-size:48px;margin-bottom: 60px;'>珍藏乐趣的小盒子</div>
+				<div style='color:#fff;text-align: center;font-size: 18px;'>延续HISS的智慧与简洁，再加上DISNEY的美貌。流畅的外观享受、精密的技术结构；小小
+				</div>
+				<div style='color:#fff;text-align: center;font-size:18px;'>的盒子里，最适合珍藏自己最私密的东西。</div>
+			</div>
+			<div style='display: flex;margin-top:12%;'>
+				<div class="se2img1">
+					<img src="./img/product_le_1.png" alt="" style='width:49%;'>
+					<img src="./img/product_le_2.png" alt="" style='width:49%;margin-left:0;'>
+				</div>
+				<div class="se2img2">
+					<img src="./img/product_le_3.png" alt="" style='width:49%;margin-left: 1%;'>
+					<img src="./img/product_le_4.png" alt="" style='width:49%;'>
+				</div>
+			</div>
+		</div>
+		<div class="section section3">
+			<div class="container" >
+				<div style='width:50%;float: left;'>
+					<img src="./img/product_os.png" alt="" style='margin-top:40%;'>
+				</div>
+				<div class="sec3" style='width:50%;float:right; position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);'>
+					<div class="prodsec3_1" style='color:#616265;margin-left:20%;text-align: right;font-size: 80px;margin-bottom: 60px;'>O.S
+						Cabinet
+					</div>
+					<div class="prodsec3_2" style='color:#616265;text-align: right;font-size:40px;margin-bottom: 60px;'>跨时代的智能办公柜</div>
+					<div style='color:#616265;text-align: right;font-size: 18px;width:380px;float:right;'>
+						无把手弹出柜门设计，更有三层柜与两层柜可供选择，适合不同办公储存需求。企业通过服务器对 O.S Cabinet做统一规划、管理，最大限度保护企业机密和个人隐私。
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section4">
+			<div class="container" style='position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);'>
+				<div class="sec4" style='width:43%;float:left;position: absolute;
+				top: 50%;
+				left: 25%;
+				transform: translate(-25%, -50%);'>
+					<div class="prodsec3_1" style='color:#fff;text-align: left;font-size: 80px;margin-bottom: 60px;'>HISS
+						safe
+					</div>
+					<div class="prodsec3_2" style='color:#fff;text-align: left;font-size:40px;margin-bottom: 60px;'>全球第一台带平板 <br><br><br>
+						电脑的智能保险柜</div>
+					<div style='color:#fff;text-align: left;font-size: 18px;'>HISS Safe 拥有“一臂（50cm）”的安全距离
+						：任何人或物品靠近柜门50厘米，HISS Safe将启用前置摄像头连续拍摄照片取证。你可以随时在APP或Pad中查看记录。 O.S
+						Cabinet做统一规划、管理，最大限度保护企业机密和个人隐私。
+					</div>
+				</div>
+				<div class="sec4img" style='width:50%;float: right;text-align: right'>
+					<img src="./img/product_safe.png" alt="" >
+				</div>
+			</div>
+		</div>
+		<div class="section section5">
+			<div class="container">
+				<div style='position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);'>
+						<div class="sec5img" style='width:50%;float: left;'>
+					<img src="./img/product_access.png" alt="" style='margin-top:-29%'>
+				</div>
+				<div class="sec5" style='width:50%;float:right;'>
+					<div class="prodsec5_1" style='color:#616265;margin-top:0;text-align: right;font-size: 60px;margin-bottom: 60px;'>
+						Access control</div>
+					<div style='color:#616265;text-align: right;font-size:40px;margin-bottom: 60px;'>智能门禁设备</div>
+					<div style='color:#616265;text-align: right;font-size: 18px;'>
+						7x24小时监控门、网、电状态 ，多种权限分配方式 ，实时检索使用及报警记录。离线断网情况下，仍可进行人脸识别或管理员开启。
+					</div>
+				</div>
+				</div>
+			</div>
+			<footer>
+				<div id="footer" class=" footer-dark" style='height:210px;'>
+					<div class="container">
+						<div style='display: flex;'>
+							<div style='margin-top:60px;width:50%'>
+								<div style='font-size:18px;margin-top:20px;margin-bottom: 30px;color:#c0c0c0;'>客服电话:
+									<span style='font-size:36px;color:#fff;'>400-928-1122</span></div>
+								<div style='font-size:18px;margin-top:10px;color:#c0c0c0;'>服务时间: 周一到周五9:30-18:00</div>
+							</div>
+							<div style='margin-top:6%;float:right;width:50%;text-align: right' id='concact'>
+								<img src="./img/logo_footer.png" alt="" style='width:105px;height:35px;max-width: none'>
+								<h2 style='font-size:18px;text-align: right;color:#c0c0c0;'>zps@zeepson.com</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- footer 2 -->
+				<div id="copyrights" class="footer-2 footer-dark" style='height: 25px;text-align: center'>
+					<div class="container" style='text-align: center'>
+						<div class="row">
+							<div class="span12" style="font-size:14px;text-align: center;width:100%;">
+							  Copyright © 2012-2019. 智普信科技 ｜
+							  <a href="http://www.beian.miit.gov.cn"> <span style="color:#c0c0c0;">京ICP备09017907</span> </a></div>
+						  </div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script>
+		$('.section1').find('img').delay(600).animate({
+			right: '0'
+		}, 1500, 'easeOutExpo');
+	</script>
+</body>
+</html>

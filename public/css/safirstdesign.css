@@ -1,0 +1,277 @@
+.sfd_part1 {
+    height: 776px;
+    position: relative;
+    background: #fbfbfb;
+}
+.sfd_part1_title {
+    position: absolute;
+    bottom: 12%;
+    text-align: center;
+    width: 528px;
+    margin: 0 auto;
+    left: 50%;
+    z-index: 5;
+    margin-left: -264px;
+}
+.sfd_part1_title h1 {
+    font-weight: 300;
+}
+.sfd_part1_title p {
+    margin-top: 32px;
+    line-height: 40px;
+}
+.sfd_part1 img:nth-of-type(1).on {
+    animation: moveBottom 1s ease both;
+    -webkit-animation: moveBottom 1s ease both;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+.sfd_part1 img:nth-of-type(1) {
+    position: absolute;
+    left: 6%;
+    top: -30px;
+    z-index: 4;
+}
+.sfd_part1 img {
+    width: 32%;
+}
+.sfd_part1 img:nth-of-type(2).on {
+    animation: moveTop 1s ease both;
+    -webkit-animation: moveTop 1s ease both;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+.sfd_part1 img:nth-of-type(2) {
+    position: absolute;
+    right: 6%;
+    top: 260px;
+    z-index: 4;
+    width: 32%;
+}
+.sfd_part2 {
+    position: relative;
+    background-color: #FFF;
+}
+.loadingV {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    top: 0;
+    text-align: center;
+    line-height: 569px;
+}
+.sfd_part2 .sfd_part2_title {
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 65px 0 75px 0;
+}
+.sfd_part2 .sfd_part2_title p {
+    line-height: 40px;
+    margin-top: 32px;
+}
+.sfd_part3 {
+    position: relative;
+    overflow: hidden;
+}
+.sfd_part3 .sfd_part3_img {
+    background: url(../img/sfd_002_02.jpg) center center no-repeat;
+    background-size: cover;
+    height: 867px;
+    position: relative;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    top: -100px;
+}
+.sfd_part4 {
+    padding: 50px 0;
+}
+.sfd_part4 .sfd_part4_title {
+    text-align: center;
+}
+.sfd_part4 .sfd_part4_title p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.sfd_part4 .sfd_part4_title p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.sfd_part4 .sfd_part4_list {
+    margin-top: 35px;
+}
+.sfd_part4_all {
+    width: 50%;
+    height: 429px;
+    float: left;
+    position: relative;
+    background: #FFF;
+}
+.sfd_part4_all .sdf_part4_info {
+    width: 337px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.sdf_part4_info h1 {
+    font-weight: 300;
+}
+.sfd_part4_all .sdf_part4_info p {
+    line-height: 40px;
+    margin-top: 32px;
+}
+.sfd_part5 {
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.sfd_part5 .sfd_part5_title {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.sfd_part5_title h1 {
+    font-size: 36px;
+    font-weight: 100;
+}
+h1, h2, h3, h5, h6 {
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    /* font-size: 32px !important; */
+}
+.sfd_part5 .sfd_part5_title p {
+    margin-top: 32px;
+    line-height: 40px;
+}
+.sfd_part5_img {
+    position: relative;
+    height: 857px;
+    overflow: hidden;
+}
+.sfd_part5_move {
+    background: url(../img/sfd_006_02.jpg) center center no-repeat;
+    background-size: cover;
+    height: 857px;
+    position: relative;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    top: -100px;
+}
+.sfd_part6 {
+    position: relative;
+    padding-top: 35px;
+}
+.sfd_part6 .sfd_top {
+    position: relative;
+    top: -100px;
+}
+.sfd_part6 .sfd_top img.on {
+    animation: moveBottom .6s ease both;
+    -webkit-animation: moveBottom .6s ease both;
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+}
+.sfd_part6 .sfd_top img {
+    opacity: 0;
+}
+.sfd_part6 .sfd_part6_title.on {
+    animation: opacity0To1 .6s ease both;
+    -webkit-animation: opacity0To1 .6s ease both;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+.sfd_part6 .sfd_part6_title {
+    width: 530px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.sfd_part6 .sfd_part6_title p {
+    margin-top: 30px;
+    line-height: 30px;
+}
+.sfd_part6 .sfd_bottom {
+    position: relative;
+    top: 200px;
+}
+.sfd_part7 .disney_part8 {
+    background: #EEEEEE;
+}
+.disney_part8 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: #f4ffeb;
+}
+.disney_img {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 320px;
+    height: 320px;
+}
+.disney_img img {
+    width: 100%;
+    height: 100%;
+}
+.disney_part8 .next_contect {
+    width: 65%;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+.next_contect {
+    width: 570px;
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    float: right;
+    font-size: 16px;
+}
+.next_contect p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 16px;
+    color: #040404;
+}
+.next_contect h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040404;
+    margin-bottom: 20px;
+}
+.next_contect aside {
+    color: #040404;
+}
+.next_contect a {
+    display: block;
+    font-size: 16px;
+    color: #00baff;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    .disney_img{
+        left:-5px;
+    }
+    .disney_part8 .next_contect{
+        left:0;
+    }
+}
+

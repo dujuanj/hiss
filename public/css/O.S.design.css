@@ -1,0 +1,319 @@
+.OS_part1 {
+    padding-bottom: 100px;
+    position: relative;
+}
+.OSD_part1_inner {
+    width: 80%;
+    margin: 0 auto;
+}
+.OSD_part1 .OS_mess {
+    width: 59%;
+}
+.OS_part1 .OS_mess {
+    text-align: center;
+    word-break: all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 30px;
+    opacity: 0;
+}
+.OS_part1 .OS_mess {
+    width: 640px;
+    margin: 0 auto;
+}
+.hiss_header_content {
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+OSD_part1 .OS_mess h1 {
+    font-weight: 100;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.OSD_part1 .OS_mess p {
+    width: 594px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+.OS_mess p {
+    font-size: 16px;
+}
+p {
+    color: #333;
+}
+.OSD_part2 {
+    padding-top: 40px;
+    background: #f5f5f5;
+    height: 300px;
+    position: relative;
+}
+.OSD2_title.on {
+    animation: opacity0To1 0.6s ease-in-out both;
+    -webkit-animation: opacity0To1 0.6s ease-in-out both;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+.OSD2_title {
+    position: relative;
+    left: 80px;
+    opacity: 0;
+}
+.OSD2_title p {
+    font-size: 20px;
+    color: #323232;
+}
+.inner_mess {
+    width: 740px;
+    margin: 0 auto;
+}
+OSD_part2 .delay01.on {
+    animation: moveLeft 0.6s ease-in-out both;
+    -webkit-animation: moveLeft 0.6s ease-in-out both;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+.delay01 {
+    animation-delay: .1s;
+    -webkit-animation-delay: .1s;
+}
+.inner_mess_all {
+    width: 50%;
+    float: left;
+    position: relative;
+    left: 180px;
+    opacity: 0;
+    padding-left: 75px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.inner_mess_all span {
+    color: #5c5c5c;
+}
+.OSD_part2 .delay02.on {
+    animation: moveLeft 0.6s ease-in-out both;
+    -webkit-animation: moveLeft 0.6s ease-in-out both;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+.delay02 {
+    animation-delay: .2s;
+    -webkit-animation-delay: .2s;
+}
+.inner_mess_all p {
+    font-size: 100px;
+    color: #0099ff;
+    font-weight: 100;
+    margin-top: 62px;
+    margin-bottom: 38px;
+}
+.OSD2_title b {
+    font-size: 40px;
+    font-weight: 400;
+}
+.inner_mess_all p sub {
+    font-size: 24px;
+    position: relative;
+    top: -2px;
+    left: -20px;
+}
+sub {
+    bottom: -0.25em;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.OSD_part4 {
+    font-size: 0;
+    height: 537px;
+    overflow: hidden;
+}
+.OS_animation {
+    position: relative;
+    height: 866px;
+    overflow: hidden;
+}
+.OSD_part4 img {
+    position: relative;
+    top: -100px;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+.OSD_part5 {
+    background: #F5F5F5;
+}
+OSD_part5 .title_mess {
+    padding: 100px 0;
+}
+.title_mess .info_mess {
+    width: 488px;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -244px;
+    text-align: center;
+}
+.OSD_part5 .title_mess .info_mess {
+    width: 606px;
+    position: relative;
+    margin-left: -303px;
+    left: 50%;
+}
+.info_mess h1 {
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 36px;
+}
+.info_mess p {
+    line-height: 40px;
+    margin-top: 20px;
+    color: #000;
+}
+.OSD_part5 .title_mess {
+    padding: 100px 0;
+}
+.OSD_part6 {
+    /* padding: 100px 0 50px 0;
+    position: relative; */
+}
+.OSD_part7 {
+    position: relative;
+    padding: 0 0 100px 0;
+    background: #fff;
+}
+.OSD_part7_img {
+    width: 40%;
+    position: relative;
+    left: 80px;
+}
+.large {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px rgba(0, 0, 0, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    background: url(../img/OSD_006_03.png) no-repeat;
+}
+.OSD_part7 img {
+    width: 370px;
+}
+.OSD_part7 .posOSD_info_mess {
+    width: 356px;
+    position: absolute;
+    top: 160px;
+    left: 565px;
+}
+.OSD_part7 .posOSD_info_mess h1 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.OSD_part7 .posOSD_info_mess p {
+    line-height: 40px;
+    margin-top: 32px;
+}
+.OSD_part8 {
+    position: relative;
+}
+.OSD_part8_mess {
+    width: 339px;
+    position: absolute;
+    top: 59%;
+    right: 30%;
+}
+.OSD_part8_mess h1 {
+    margin-bottom: 32px;
+}
+.OSD_part8_mess p {
+    line-height: 40px;
+}
+.ca_img{
+    width: 1100px;
+    height: 380px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.ca_img img {
+    width: 300px;
+    float: left;
+}
+.osd_part6_mess {
+    width: 266px;
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 85px;
+}
+.osd_part6_mess h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 100;
+}
+.width_1002 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -595px;
+    width: 1190px;
+    height: 380px;
+}
+.btn_part6_next {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: -50px;
+    top: 41%;
+    margin-top: 50px;
+    z-index: 111;
+    cursor: pointer;
+    background: rgba(0,0,0,0.3) url(../images/next_pro002.png) center center no-repeat;
+    background-size: 40px 70px;
+    display: none;
+}
+.btn_part6_prev {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: -50px;
+    top: 41%;
+    margin-top: 50px;
+    z-index: 111;
+    cursor: pointer;
+    background: rgba(0,0,0,0.3) url(../images/next_pro001.png) center center no-repeat;
+    background-size: 40px 70px;
+    display: none;
+}
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    .next_contect{
+        width:410px!important;
+        margin-right: 160px;
+    }
+    .OSD_part4{
+        height: 350px;
+    }
+    .OSD_part8_mess{
+        top: 57%;
+        right: 12%;
+    }
+  
+}
+
+

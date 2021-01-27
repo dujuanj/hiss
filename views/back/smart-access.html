@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>智普信科技</title>
+    <!-- [loading stylesheets] -->
+
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- [loading scripts] -->
+
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script src='js/bootstrap.js'></script>
+
+    <script type="text/javascript">
+        var $ = jQuery.noConflict();
+        $(window).load(function () {
+            $('#qbTrans-pageTrans-dialog').remove();
+            $('#slider').flexslider({
+                animation: "slide",
+                directionNav: true,
+                animationLoop: true,
+                controlNav: false,
+                slideToStart: 1,
+                slideshow: true,
+                animationDuration: 300,
+                start: function () {
+                    $('#slider').animate({ opacity: 1 }, 750);
+                },
+            });
+           
+        });
+    </script>
+</head>
+
+<body>
+
+    <section id="page-wrapper">
+        <!-- 导航 -->
+        <section id="menu-wrapper">
+            <!--             	
+                <div id="menu-search">
+                    <input id="menu-search-input-text" type="text" placeholder="Search..." />
+                    <input id="menu-search-input-submit" type="submit" value="" />
+                </div> -->
+
+            <ul class="menu">
+
+                <li class="icon home">
+                    <a href="index.html">
+                        <span class="menu-li-title">网站首页</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li id="a-submenu-1" class="icon box">
+                    <a href="#">
+                        <span class="menu-li-title">解决方案</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-1" style='background: #eee;'>
+                        <li style='padding-top:1.2rem' link='smart-office.html'>
+                            <a href="smart-office.html">
+                                <span class="menu-li-title">智能办公</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link='office-se.html'>
+                            <a href="office-se.html">
+                                <span class="menu-li-title">共享空间</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="shared-parking.html">
+                            <a href="shared-parking.html">
+                                <span class="menu-li-title">共享停车</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="shared-storage.html">
+                            <a href="shared-storage.html">
+                                <span class="menu-li-title">共享仓储</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="cloud.html">
+                            <a href="cloud.html">
+                                <span class="menu-li-title">智能安防云</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="baoguan.html">
+                            <a href="baoguan.html" style='display: inline-block;height: 4rem;'>
+                                <span class="menu-li-title">重要物品保管</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+                <li id="a-submenu-2" class="icon box">
+                    <a href="#">
+                        <span class="menu-li-title">产品中心</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-2" style='display: none;background: #eee;height: 21rem;'>
+                        <li style='padding-top:1.2rem;' link="safirst.html">
+                            <a href="safirst.html">
+                                <span class="menu-li-title">初柜/Safirst</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link="leBox.html">
+                            <a href="leBox.html">
+                                <span class="menu-li-title">乐盒/Le-Box</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="O_S.summary.html">
+                            <a href="O_S.summary.html">
+                                <span class="menu-li-title">智能办公柜/O.S Cabinet</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="HISSSafe-summary.html">
+                            <a href="HISSSafe-summary.html">
+                                <span class="menu-li-title">保险柜/Hiss Safe</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="smart-access.html">
+                            <a href="smart-access.html">
+                                <span class="menu-li-title">智能门禁/Smart Access</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="icon info">
+                    <a href="customer-case.html">
+                        <span class="menu-li-title">客户案例</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li class="icon blog">
+                    <a href="news.html">
+                        <span class="menu-li-title">新闻动态</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                <li class="icon blog">
+                    <a href="about.html">
+                        <span class="menu-li-title">关于智普信</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+
+            </ul> <!-- .menu -->
+        </section> <!-- #menu-wrapper -->
+
+
+        <section id="content-wrapper">
+
+            <section id="header">
+
+                <div id="header-left">
+                    <!-- <a href="#" id="a-menu"><img src="img/icons/menu.png" alt="menu" /></a> -->
+                    <a href="index.html"><img style='margin:0.5rem 0 0 1.5rem;width:6rem;' src="./img/icon_logo.png"
+                            alt=""></a>
+                </div>
+
+                <div id="header-title">
+                    <!-- <h1>公司名称</h1> -->
+                </div>
+
+                <div id="header-right">
+                    <a href="#" id="a-menu"><img src="img/index_icon_drop.png" alt="menu" /></a>
+                    <!-- <a href="#" id="header-search-link"><img src="img/icons/share.png" alt="Search" /></a>                     -->
+                </div>
+            </section> <!-- #header -->
+            <section class="sub-header">
+                <div style='display: flex;'>
+                    <div style='margin:0 1.5rem 0 1.5rem;'><span>Smart Access 概述</span></div>
+
+                    <div style='line-height: 3rem;' class="shownav">
+                        <img src="./img/down.png" alt="" class="user-arrow rotate">
+                    </div>
+                    <div>
+                        <a data-toggle="modal" href="#myModal" class="buy">购买</a>
+                    </div>
+                </div>
+                <ul class="sub-nav">
+                    <li> <a href="smart-access.html"> 概述 ></a> </li>
+
+                    <li> <a href="access-design.html"> 设计 ></a> </li>
+                    <li> <a href="access-function.html"> 功能 ></a> </li>
+                    <li> <a href="access-Tec.html"> 技术规格 ></a> </li>
+
+                </ul>
+            </section>
+            <div id='contents'>
+
+
+                <article>
+                    <div class="wrapper">
+                        <h2>高端人脸识别算法</h2>
+                        <p>采用新一代的人脸识别算法和红外双摄像头，动态识别，活体检测。</p>
+                    </div>
+                    <div>
+                        <img src="./img/door_view_img_1.png" alt="">
+                    </div>
+
+                    <div class="wrapper">
+                        <h2>识别率高</h2>
+                        <p>人脸出现在画面中，自动抓拍识别，无需按键触发，毫秒级识别速度，识别率99.5%以上。</p>
+                    </div>
+                    <div>
+                        <img src="./img/door_view_img_2.png" alt="">
+                    </div>
+                    <div class="wrapper" style='margin-bottom: 0;'>
+                        <h2>功能强大</h2>
+                        <p>基于RK3288的Android系统 <br>
+                            4核CPU，运行内存2GB <br>
+                            大容量高速存储，拒绝卡顿 <br>
+                            支持市面上所有12V／24V电控锁 <br>
+                            兼容86型开关壁挂</p>
+                        <div style='text-align: center;'>
+                            <img src="./img/door_view_img_3.png" alt="" style='width:70%;'>
+                        </div>
+
+                    </div>
+                    <div class="wrapper"> 
+                        <section id="slider">
+                            <ul class="slides">
+                                <li><img src="./img/door_view_img_41.png" alt="" /></li>
+                                <li><img src="./img/door_view_img_42.png" alt="" /></li>
+                                <li><img src="./img/door_view_img_43.png" alt="" /></li>
+                            </ul>
+                        </section> 
+                    </div>
+                    <div class="wrapper">
+                        <h2>使用场景</h2>
+                        <div style='text-align: center;'>
+                            <img src="./img/images/access_03.png" alt="" style='width:100%'>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </article> <!-- #post -->
+
+            </div>
+            <div>
+                <a href="access-design.html" class="design-next">
+
+                    <div style='display: flex;'>
+                        <div style='width:45%;margin:3rem 1rem 0 0'>
+                            <img src="./img/door_img_pad.png" alt="" style='width:50%;margin-left:3rem;'>
+                        </div>
+                        <div style='margin:3rem 0'>
+                            <p> &nbsp;下一步 简约设计风格</p>
+                            <p>「我想要的感觉都在这里」</p>
+                            <p style='color:#6abff8;text-decoration: underline;'> &nbsp;了解智能门禁的设计</p>
+                            <p style='color:#6abff8;text-decoration: underline;'> &nbsp;下一章：设计 ></p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+
+
+            <section id="footer">
+                <div style='display: flex;'>
+                    <div style='margin-right:3rem;'>
+                        <img src="./img/logo_footer.png" alt="">
+                        <p style='font-size:0.8rem;'>关于智普信</p>
+                        <p><a href="about.html">公司介绍</a></p>
+                        <p><a href="about.html#part4">品牌理念</a></p>
+                        <p><a href="about.html#part5">发展历程</a></p>
+                        <p><a href="about.html#part7">专利认证</a></p>
+                        <p><a href="about.html#part9">联系我们</a></p>
+                        <p style='margin-top:2.5rem;font-size:1rem;'>关注我们</p>
+                    </div>
+                    <div>
+                        <p style='margin-top:3.3rem;'>北京总部</p>
+                        <p style='line-height: 20px;'>电话：010-8447-1877 400-928-1122</p>
+                        <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                        <p style='line-height: 20px;'>地址：北京市 朝阳区 朝外大街乙6号 朝外SOHO B座0608室</p>
+                        <p style='margin-top:1.3rem;'>无锡分部</p>
+                        <p style='line-height: 20px;'>电话：0510-85678888</p>
+                        <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                        <p style='line-height: 20px;'>地址：江苏省 无锡市 锡山区 翠山路488号锡东创谷C栋509</p>
+                        <div style='display: flex;margin-top:2rem;line-height: 20px;'>
+                            <div style='margin-right:2.5rem;text-align: center;'><img src="./img/index_code_wx.png"
+                                    alt="">
+                                <div>【微信公众号】</div>
+                            </div>
+                            <div style='text-align: center;'><img src="./img/index_code_wb.png" alt="">
+                                <div>【官方微博】</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section> <!-- #footer -->
+
+        </section> <!-- #content-wrapper -->
+    </section> <!-- #page-wrapper -->
+    <!-- Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true"
+        style='z-index: 2000;left: 50%; width: 19rem; transform:translate(-50%, -50%);margin:0;height: 32rem;'>
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel" style='font-size:18px;'> <i class="sales"></i> 请选择在售商城</h3>
+        </div>
+        <div class="modal-body">
+            <div style='text-align: center;'>
+                <div>
+                    <a href="https://mall.jd.com/index-900497.html"><img src="./img/img_code_j.png" alt=""
+                            style='width:50%;'></a>
+                    <p style='text-align: center;font-weight: bold;'>长按识别二维码</p>
+                </div>
+                <div>
+                    <a href="https://hissznsb.tmall.com/"><img src="./img/img_code_t.png" alt="" style='width:50%;'></a>
+                    <p style='text-align: center;font-weight: bold;'>长按识别二维码</p>
+                </div>
+                <div>
+                    <a
+                        href="http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA5NjIyODYyNQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect"><img
+                            src="./img/img_code_w.png" alt="" style='width:50%;'></a>
+                    <p style='text-align: center;font-weight: bold;margin-top:16px'>微信扫码进入</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

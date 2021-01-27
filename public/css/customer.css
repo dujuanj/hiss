@@ -1,0 +1,26 @@
+.span6{
+    width:50%;
+    margin:0;
+    box-sizing: border-box;
+}
+.part1{
+    height: 640px;
+    background: #fafafa;
+}
+.part1 .span6 div{
+    /* width:510px; */
+    color:#313131;
+}
+/* @media (min-width: 1200px){
+    .paddingr_8{
+        padding-right:8%!important;
+    }
+} */
+@media (max-width: 1200px){
+    .paddingr_8{
+        padding-right:8%!important;
+    }
+    .paddingl_8{
+        padding-left:8%!important;
+    }
+}

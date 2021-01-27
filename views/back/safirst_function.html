@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>智普信科技</title>
+   
+    <!-- [loading stylesheets] -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- [loading scripts] -->
+
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script src='js/bootstrap.js'></script>
+
+    <script type="text/javascript">
+        var $ = jQuery.noConflict();
+        $(window).load(function () {
+            $('#qbTrans-pageTrans-dialog').remove();
+            $('#slider').flexslider({
+                animation: "slide",
+                directionNav: true,
+                animationLoop: false,
+                controlNav: false,
+                slideToStart: 1,
+                slideshow: true,
+                animationDuration: 300,
+                start: function () {
+                    $('#slider').animate({ opacity: 1 }, 750);
+                },
+            });
+            $('#slider1').flexslider({
+                animation: "slide",
+                directionNav: true,
+                animationLoop: false,
+                controlNav: false,
+                slideToStart: 1,
+                slideshow: true,
+                animationDuration: 300,
+                start: function () {
+                    $('#slider1').animate({ opacity: 1 }, 750);
+                },
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <section id="page-wrapper">
+        <!-- 导航 -->
+        <section id="menu-wrapper">
+            <!--             	
+                <div id="menu-search">
+                    <input id="menu-search-input-text" type="text" placeholder="Search..." />
+                    <input id="menu-search-input-submit" type="submit" value="" />
+                </div> -->
+
+            <ul class="menu">
+
+                <li class="icon home">
+                    <a href="index.html">
+                        <span class="menu-li-title">网站首页</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li id="a-submenu-1" class="icon box" >
+                    <a href="#">
+                        <span class="menu-li-title">解决方案</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-1" style='background: #eee;'>
+                        <li style='padding-top:1.2rem' link='smart-office.html'>
+                            <a href="smart-office.html">
+                                <span class="menu-li-title">智能办公</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link='office-se.html'>
+                            <a href="office-se.html">
+                                <span class="menu-li-title">共享空间</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="shared-parking.html">
+                            <a href="shared-parking.html">
+                                <span class="menu-li-title">共享停车</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="shared-storage.html">
+                            <a href="shared-storage.html">
+                                <span class="menu-li-title">共享仓储</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="cloud.html">
+                            <a href="cloud.html">
+                                <span class="menu-li-title">智能安防云</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="baoguan.html">
+                            <a href="baoguan.html" style='display: inline-block;height: 4rem;'>
+                                <span class="menu-li-title">重要物品保管</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                      
+                    </ul>
+
+                </li>
+                <li id="a-submenu-2" class="icon box">
+                    <a href="#">
+                        <span class="menu-li-title">产品中心</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-2" style='display: none;background: #eee;height: 21rem;'>
+                        <li style='padding-top:1.2rem;' link="safirst.html">
+                            <a href="safirst.html">
+                                <span class="menu-li-title">Safirst/初柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link="leBox.html">
+                            <a href="leBox.html">
+                                <span class="menu-li-title">Le-Box/乐盒</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="O_S.summary.html">
+                            <a href="O_S.summary.html">
+                                <span class="menu-li-title">O.S Cabinet</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="HISSSafe-summary.html">
+                            <a href="HISSSafe-summary.html">
+                                <span class="menu-li-title">Hiss Safe/保险柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="smart-access.html">
+                            <a href="smart-access.html">
+                                <span class="menu-li-title">智能门禁</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="icon info">
+                    <a href="customer-case.html">
+                        <span class="menu-li-title">客户案例</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li class="icon blog">
+                    <a href="news.html">
+                        <span class="menu-li-title">新闻动态</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                <li class="icon blog">
+                    <a href="about.html">
+                        <span class="menu-li-title">关于智普信</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+
+            </ul> <!-- .menu -->
+        </section> <!-- #menu-wrapper -->
+
+
+
+        <section id="content-wrapper">
+
+            <section id="header">
+
+                <div id="header-left">
+                    <!-- <a href="#" id="a-menu"><img src="img/icons/menu.png" alt="menu" /></a> -->
+                    <a href="index.html"><img style='margin:0.5rem 0 0 1.5rem;width:6rem;' src="./img/icon_logo.png" alt=""></a>
+                </div>
+
+                <div id="header-title">
+                    <!-- <h1>公司名称</h1> -->
+                </div>
+
+                <div id="header-right">
+                    <a href="#" id="a-menu"><img src="img/index_icon_drop.png" alt="menu" /></a>
+                    <!-- <a href="#" id="header-search-link"><img src="img/icons/share.png" alt="Search" /></a>                     -->
+                </div>
+            </section> <!-- #header -->
+            <section class="sub-header">
+                <div style='display: flex;'>
+                    <div style='margin:0 2rem 0 1.5rem;'><span>Safirst/初柜 功能</span></div>
+                   
+                    <div style='line-height: 3rem;' class="shownav">
+                            <img src="./img/down.png" alt="" class="user-arrow rotate">
+                        </div>
+                    <div>
+                            <a data-toggle="modal" href="#myModal"
+                            class="buy">购买</a>
+                    </div>
+                </div>
+                <ul class="sub-nav">
+                    <li> <a href="safirst.html"> 概述 ></a> </li>
+                    <li> <a href="safirst.design.html"> 设计 ></a> </li>
+                    <li> <a href="safirst_function.html"> 功能 ></a> </li>
+                    <li> <a href="safirst_technical.html"> 技术规格 ></a> </li>
+
+                </ul>
+            </section>
+            <div id='contents'>
+                
+
+                <article>
+
+                    <div class="wrapper">
+                        <!-- <span class="post-date">27 JUNE 2015, 14:13</span> -->
+                        <h2 style='text-align: center;'>智能可以这样</h2>
+                        <p>Safirst初柜 内置 HISS云 模块、高敏度陀螺仪，24小时监控柜体安全。通过简单的步骤，绑定你的Safirst初柜，利用微信、官方APP实现远程解锁及控制。</p>
+                        <div>
+                           
+                        </div>
+
+                        
+                        <div style="margin-top:1rem">
+                          <img src="./img/saf-fun/ftu1.png" alt="">
+                        </div>
+                       
+                    </div>
+                    <div style='background: #ebebf0;'>
+                        <div class="wrapper">
+                               <h2 style='text-align: center;margin-top:1.5rem;padding-top:1rem;'>轻轻一触</h2>
+                            <p>为了最大限度发挥 Safirst初柜 性能优势，我们带来了更加精密的设计结构。简洁流畅的造型，节省更多内部容积，高性能与大储存并存。
+                            </p>
+                            <div>
+                                    <video style='width:127%;' src="http://o-website.oss-cn-shanghai.aliyuncs.com/osite/sff_video.mp4" autoplay="autoplay" loop="loop"
+                                    type=""></video>
+                                   
+                            </div>
+                        </div>
+                         
+                           
+                          
+                        </div>
+                
+                    <div class="wrapper">
+                         
+                            <h2 style='text-align: center;'>享受一次安心的外出旅行</h2>
+                            <p>Safirst初柜 内置HISS云功能，远程报警、24小时管控，让你安心出门走</p>
+                    </div>
+                    <img src="./img/saf-fun/ftfu2.png" alt="">
+                  
+                    <div class="wrapper">
+                            <h2 style='text-align: center;margin-top:2rem;'>你想要的我都有</h2>
+                            <p>HISS云与每一台 Safirst初柜连接，并架起与你的手机联系的桥梁，通过APP和微信，你可以在任何时间、地点掌握并控制你想知道的 Safirst初柜信息。</p>
+                            <div style='display: flex; margin-top:1.5rem;'>
+                                <div>
+                                    <img src="./img/saf-fun/sff_li_007.png" alt="">
+                                    <p style='text-align: center;'>状态实时监控</p>
+                                </div>
+                                <div>
+                                        <img src="./img/saf-fun/sff_li_004.png" alt="">
+                                        <p style='text-align: center;'>个性化设置</p>
+                                    </div>
+                            </div>
+                            <div style='display: flex; margin-top:1.5rem;'>
+                                    <div>
+                                        <img src="./img/saf-fun/sff_li_005.png" alt="">
+                                        <p style='text-align: center;'>超强用户管理</p>
+                                    </div>
+                                    <div>
+                                            <img src="./img/saf-fun/sff_li_006.png" alt="">
+                                            <p style='text-align: center;'>我的设备管理</p>
+                                        </div>
+                                </div>
+                                <div style='display: flex; margin-top:1.5rem;'>
+                                        <div>
+                                            <img src="./img/saf-fun/sff_li_009.png" alt="">
+                                            <p style='text-align: center;'>柜体使用记录</p>
+                                        </div>
+                                        <div>
+                                                <img src="./img/saf-fun/sff_li_010.png" alt="">
+                                                <p style='text-align: center;'>异常报警记录</p>
+                                            </div>
+                                    </div> 
+                                    <!-- <div style='display: flex; margin-top:1.5rem;'>
+                                            <div>
+                                                <img src="./img/saf-fun/a7.png" alt="">
+                                                <p style='text-align: center;'>异常状态显示</p>
+                                            </div>
+                                            <div>
+                                                    <img src="./img/saf-fun/a8.png" alt="">
+                                                    <p style='text-align: center;'>使用数据收集</p>
+                                                </div>
+                                        </div>  -->
+                                        <!-- <div style='display: flex; margin-top:1.5rem;'>
+                                                <div>
+                                                    <img src="./img/saf-fun/a9.png" alt="">
+                                                    <p style='text-align: center;'>柜体使用记录</p>
+                                                </div>
+                                                <div>
+                                                        <img src="./img/saf-fun/a10.png" alt="">
+                                                        <p style='text-align: center;'>异常报警记录</p>
+                                                    </div>
+                                            </div>             -->
+                        </div>
+                   
+                    <div class="wrapper">
+                            <h2 style='text-align: center;margin-top:1.5rem;'>低能耗断电保护</h2>
+                            <p>遭遇断电，Safirst初柜 仍可以依靠4节AA电池维持基础功能。经过多次测试，我们把能耗降到最低，正常4节AA电池可以使用200天。</p>
+                    </div>
+                    <div>
+                        <img src="./img/images/safun_02.png" alt="" style='width:100%;'>
+                      
+                    </div>
+                    <div class="wrapper">
+                            <h2 style='text-align: center;margin-top:1.5rem;'>安全是我们的核心</h2>
+                            <p>从硬件到软件，我们贯彻安全于产品之中。我们希望做到从外观设计、材料选择到智能系统开发，都能给你最棒的用户体验。</p>
+                    </div>
+                    <div>
+                         <img src="./img/saf-fun/ftu3.png" alt="" style='width:100%;'>
+                    </div>
+                   
+                </article> <!-- #post -->
+
+            </div>
+            <div>
+                <a href="safirst_technical.html">
+                     <img src="./img/images/safun_04.png" alt="">
+                </a>
+               
+            </div>
+
+
+
+
+            <section id="footer">
+                <div style='display: flex;'>
+                    <div style='margin-right:3rem;'>
+                        <img src="./img/logo_footer.png" alt="">
+                        <p style='font-size:0.8rem;'>关于智普信</p>
+                        <p><a href="about.html">公司介绍</a></p>
+                        <p><a href="about.html#part4">品牌理念</a></p>
+                        <p><a href="about.html#part5" >发展历程</a></p>
+                        <p><a href="about.html#part7">专利认证</a></p>
+                        <p><a href="about.html#part9">联系我们</a></p>
+                        <p style='margin-top:2.5rem;font-size:1rem;'>关注我们</p>
+                    </div>
+                    <div>
+                        <p style='margin-top:3.3rem;'>北京总部</p>
+                        <p style='line-height: 20px;'>电话：010-8447-1877 400-928-1122</p>
+                        <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                        <p style='line-height: 20px;'>地址：北京市 朝阳区 朝外大街乙6号 朝外SOHO B座0608室</p>
+                        <p style='margin-top:1.3rem;'>无锡分部</p>
+                        <p style='line-height: 20px;'>电话：0510-85678888</p>
+                        <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                        <p style='line-height: 20px;'>地址：江苏省 无锡市 锡山区 翠山路488号锡东创谷C栋509</p>
+                        <div style='display: flex;margin-top:2rem;line-height: 20px;'>
+                            <div style='margin-right:3rem;text-align: center;'><img src="./img/index_code_wx.png"
+                                    alt="">
+                                <div>【微信公众号】</div>
+                            </div>
+                            <div style='text-align: center;'><img src="./img/index_code_wb.png" alt="">
+                                <div>【官方微博】</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section> <!-- #footer -->
+
+        </section> <!-- #content-wrapper -->
+    </section> <!-- #page-wrapper -->
+                    	<!-- Modal -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true" style='z-index: 2000;left: 50%; width: 19rem; transform:translate(-50%, -50%);margin:0;height: 32rem;'>
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel" style='font-size:18px;'> <i class="sales"></i> 请选择在售商城</h3>
+    </div>
+    <div class="modal-body">
+        <div style='text-align: center;'>
+            <div>
+                <a href="https://mall.jd.com/index-900497.html"><img src="./img/img_code_j.png" alt="" style='width:50%;'></a>
+                <p style='text-align: center;font-weight: bold;'>长按识别二维码</p>
+            </div>
+            <div>
+                <a href="https://hissznsb.tmall.com/"><img src="./img/img_code_t.png" alt="" style='width:50%;'></a>
+                <p style='text-align: center;font-weight: bold;'>长按识别二维码</p>
+            </div>
+            <div>
+                <a href="http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA5NjIyODYyNQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect"><img src="./img/img_code_w.png" alt="" style='width:50%;'></a>
+                <p style='text-align: center;font-weight: bold;margin-top:16px'>微信扫码进入</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

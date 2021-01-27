@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>智普信科技</title>
+
+    <!-- [loading stylesheets] -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+ 
+    <!-- [loading scripts] -->
+
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+   
+    <script type="text/javascript">
+        var $ = jQuery.noConflict();
+        $(window).load(function () {
+            $('#qbTrans-pageTrans-dialog').remove();
+            $('#slider').flexslider({
+                animation: "slide",
+                directionNav: true,
+                animationLoop: false,
+                controlNav: false,
+                slideToStart: 1,
+                slideshow: true,
+                animationDuration: 300,
+                start: function () {
+                    $('#slider').animate({ opacity: 1 }, 750);
+                },
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <section id="page-wrapper">
+        <!-- 导航 -->
+        <section id="menu-wrapper">
+            <!--             	
+                <div id="menu-search">
+                    <input id="menu-search-input-text" type="text" placeholder="Search..." />
+                    <input id="menu-search-input-submit" type="submit" value="" />
+                </div> -->
+
+            <ul class="menu">
+
+                <li class="icon home">
+                    <a href="index.html">
+                        <span class="menu-li-title">网站首页</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li id="a-submenu-1" class="icon box" >
+                    <a href="#">
+                        <span class="menu-li-title">解决方案</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-1" style='background: #eee;'>
+                        <li style='padding-top:1.2rem' link='smart-office.html'>
+                            <a href="smart-office.html">
+                                <span class="menu-li-title">智能办公</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link='office-se.html'>
+                            <a href="office-se.html">
+                                <span class="menu-li-title">共享空间</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="shared-parking.html">
+                            <a href="shared-parking.html">
+                                <span class="menu-li-title">共享停车</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="shared-storage.html">
+                            <a href="shared-storage.html">
+                                <span class="menu-li-title">共享仓储</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="cloud.html">
+                            <a href="cloud.html">
+                                <span class="menu-li-title">智能安防云</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="baoguan.html">
+                            <a href="baoguan.html" style='display: inline-block;height: 4rem;'>
+                                <span class="menu-li-title">重要物品保管</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                      
+                    </ul>
+
+                </li>
+                <li id="a-submenu-2" class="icon box">
+                    <a href="#">
+                        <span class="menu-li-title">产品中心</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-2" style='display: none;background: #eee;height: 21rem;'>
+                        <li style='padding-top:1.2rem;' link="safirst.html">
+                            <a href="safirst.html">
+                                <span class="menu-li-title">Safirst/初柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link="leBox.html">
+                            <a href="leBox.html">
+                                <span class="menu-li-title">Le-Box/乐盒</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="O_S.summary.html">
+                            <a href="O_S.summary.html">
+                                <span class="menu-li-title">O.S Cabinet</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="HISSSafe-summary.html">
+                            <a href="HISSSafe-summary.html">
+                                <span class="menu-li-title">Hiss Safe/保险柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="smart-access.html">
+                            <a href="smart-access.html">
+                                <span class="menu-li-title">智能门禁</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="icon info">
+                    <a href="customer-case.html">
+                        <span class="menu-li-title">客户案例</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li class="icon blog">
+                    <a href="news.html">
+                        <span class="menu-li-title">新闻动态</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                <li class="icon blog">
+                    <a href="about.html">
+                        <span class="menu-li-title">关于智普信</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+
+            </ul> <!-- .menu -->
+        </section> <!-- #menu-wrapper -->
+
+
+
+        <section id="content-wrapper">
+
+            <section id="header" style='height:2rem;'>
+
+                <div id="header-left">
+                    <!-- <a href="#" id="a-menu"><img src="img/icons/menu.png" alt="menu" /></a> -->
+                    <a href="index.html"><img style='margin:0.5rem 0 0 1.5rem;width:6rem;' src="./img/icon_logo.png" alt=""></a>
+                </div>
+
+                <div id="header-title">
+                    <!-- <h1>公司名称</h1> -->
+                </div>
+
+                <div id="header-right">
+                    <a href="#" id="a-menu"><img src="img/index_icon_drop.png" alt="menu" /></a>
+                    <!-- <a href="#" id="header-search-link"><img src="img/icons/share.png" alt="Search" /></a>                     -->
+                </div>
+            </section> <!-- #header -->
+            <div id='contents'>
+                <div style='height:3rem;background: #f2f2f2;line-height: 3rem;'>
+                    <div class="wrapper">
+                        <h6 style="line-height:3rem;">共享仓储</h6>
+                    </div>
+
+                </div>
+                <div style='position: relative;'>
+                    <img src="./img/s_ware_img_bg.png" alt="">
+                    <div style='position: absolute;top:30%;width:100%;text-align: center;'>
+                        <h2 style='color:#fff;margin-bottom: 0;'>共享仓储解决方案</h2>
+                        <p style='color:#fff;text-align: center;'>SHARED WAREHOUSING SOLUTION </p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div style='border:1px solid #bfbfbf'>
+                        <h2 style='margin-bottom: 0;margin-top: 2rem;'>安全性与易用性并重的</h2>
+                        <h2 style='margin-top:0'>私人物品存放平台</h2>
+                    </div>
+                    <h6 style='margin-bottom: 0;margin-top: 2rem;text-align: center;'>基于物联网技术的蜂巢式共享仓储系统，</h6>
+                    <h6 style='margin-top:0;text-align: center;'>一个平台，多点分布，信息共享，统一管理。</h6>
+                </div>
+                <div style='background: #1b1b1b;color:#fff;padding-top:2rem;padding-bottom: 2rem;'>
+                    <h2>双重认证机制</h2>
+                    <p style='text-align: center;'>面部、指纹、密码或根据运营方的不同， <br>提供IC卡、银行卡、身份证、护照等方式认证</p>
+                </div>
+                <div>
+                    <img src="./img/s_ware_img_cer.png" alt="">
+                    <h2 class="mt2">发生异常状态时联动报警</h2>
+                    <img src="./img/s_ware_img_alarm.png" alt="">
+                    <img src="./img/s_ware_img_cha.png" alt="">
+                </div>
+                <div style='background: #f2f2f2;padding-top: 2rem;padding-bottom: 2rem;'>
+                    <h2>完全自助式操作 灵活租用</h2>
+                    <div class="wrapper" style='margin-top:3rem;padding: 0 2rem;'>
+                         <img src="./img/s_ware_ic_oper.png" alt="">
+                    </div>
+                   
+                </div>
+                <div>
+                    <h2 class='mt2'>个人手机实时监控</h2>
+                    <img src="./img/s_ware_img_ipone.png" alt="">
+                </div>
+                <div class="wrapper">
+                        <h2 class='mt2'>应用场景</h2>
+                        <div style='display: flex;'>
+                            <div style='margin-right:0.5rem'>
+                                <img src="./img/s_ware_img_bank.png" alt="">
+                                <h6 style='margin-bottom: 0.4rem;'>银行网点</h6>
+                                <p style='font-size:12px;'>银行网点内的免费VIP增值服务</p>
+                            </div>
+                            <div style='margin-right:0.5rem'>
+                                    <img src="./img/s_ware_img_comm.png" alt="">
+                                    <h6  style='margin-bottom: 0.4rem;'>社区银行</h6>
+                                    <p style='font-size:12px;'>没有银行网点覆盖的社区银行增值服务</p>
+                                </div>
+                        </div>
+                        <div style='display: flex;margin-top:2rem;margin-bottom: 2rem;'>
+                                <div style='margin-right:0.5rem'>
+                                    <img src="./img/s_ware_img_traffic.png" alt="">
+                                    <h6  style='margin-bottom: 0.4rem;'>交通枢纽</h6>
+                                    <p style='font-size:12px;'>交通枢纽内的个人物品保管及转移</p>
+                                </div>
+                                <div style='margin-right:0.5rem'>
+                                        <img src="./img/s_ware_img_mall.png" alt="">
+                                        <h6  style='margin-bottom: 0.4rem;'>商场 游乐场</h6>
+                                        <p style='font-size:12px;'>商场、游乐场所内的个人物品保管</p>
+                                    </div>
+                            </div>
+                </div>
+               
+
+                <section id="footer">
+                    <div style='display: flex;'>
+                        <div style='margin-right:3rem;'>
+                            <img src="./img/logo_footer.png" alt="">
+                            <p style='font-size:0.8rem;'>关于智普信</p>
+                            <p><a href="about.html">公司介绍</a></p>
+                            <p><a href="about.html#part4">品牌理念</a></p>
+                            <p><a href="about.html#part5" >发展历程</a></p>
+                            <p><a href="about.html#part7">专利认证</a></p>
+                            <p><a href="about.html#part9">联系我们</a></p>
+                            <p style='margin-top:2.5rem;font-size:1rem;'>关注我们</p>
+                        </div>
+                        <div>
+                            <p style='margin-top:3.3rem;'>北京总部</p>
+                            <p style='line-height: 20px;'>电话：010-8447-1877 400-928-1122</p>
+                            <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                            <p style='line-height: 20px;'>地址：北京市 朝阳区 朝外大街乙6号 朝外SOHO B座0608室</p>
+                            <p style='margin-top:1.3rem;'>无锡分部</p>
+                            <p style='line-height: 20px;'>电话：0510-85678888</p>
+                            <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                            <p style='line-height: 20px;'>地址：江苏省 无锡市 锡山区 翠山路488号锡东创谷C栋509</p>
+                            <div style='display: flex;margin-top:2rem;line-height: 20px;'>
+                                <div style='margin-right:3rem;text-align: center;'><img src="./img/index_code_wx.png"
+                                        alt="">
+                                    <div>【微信公众号】</div>
+                                </div>
+                                <div style='text-align: center;'><img src="./img/index_code_wb.png" alt="">
+                                    <div>【官方微博】</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section> <!-- #footer -->
+
+        </section> <!-- #content-wrapper -->
+    </section> <!-- #page-wrapper -->
+</body>
+
+</html>

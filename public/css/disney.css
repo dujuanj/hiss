@@ -1,0 +1,300 @@
+.disney_part1 {
+    background: url(../img/01-001.jpg) center no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.disney_part2 {
+    background: #343434;
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+}
+.disney_part2_title p {
+    width: 730px;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 100;
+    color: #FFF;
+}
+.disney_part2_title a {
+    display: inline-block;
+    color: #00aeff;
+    margin-top: 30px;
+}
+.disney_part3 {
+    width: 100%;
+    height: 988px;
+    position: relative;
+}
+.hiss_header_content {
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.disney_part3 .disney_t.on {
+    animation: moveTop .6s ease both;
+    -webkit-animation: moveTop .6s ease both;
+}
+.disney_t {
+    width: 789px;
+    height: 370px;
+    /* background: url(../images/disney_part3.jpg) no-repeat center center; */
+    /* background-size: cover; */
+    position: relative;
+    top: 200px;
+    left: 50%;
+    opacity: 0;
+    margin-left: -394px;
+}
+.disney_part3 .disney_l.on {
+    animation: moveTop .6s ease both;
+    -weblit-animation: moveTop .6s ease both;
+    animation-delay: .2s;
+    -webkit-animation-delay: .2s;
+}
+.disney_part3 .disney_l {
+    position: relative;
+    top: 300px;
+    opacity: 0;
+}
+.disney_l {
+    width: 50%;
+    float: left;
+    position: relative;
+    left: 0;
+    padding-top: 100px;
+}
+.disney_part3 .disney_r.on {
+    animation: moveTop .6s ease both;
+    -webkit-animation: moveTop .6s ease both;
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+}
+.disney_part3 .disney_r {
+    position: relative;
+    top: 300px;
+    opacity: 0;
+}
+.disney_r {
+    width: 304px;
+    float: left;
+    position: relative;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.disney_r p {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.disney_r span {
+    display: block;
+    line-height: 30px;
+}
+.disney_r span i {
+    font-style: normal;
+    color: #00b4ff;
+}
+.disney_part4 {
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    background: #f2f2f2;
+}
+.disney_part4 .disney_b.on {
+    animation: moveBottom .6s ease both;
+    -webkit-animation: moveBottom .6s ease both;
+    animation-delay: .4s;
+    -webkit-animation-delay: .4s;
+}
+.disney_part4 .disney_b {
+    position: absolute;
+    bottom: 150px;
+}
+.disney_b {
+    position: absolute;
+    bottom: 0px;
+    width: 789px;
+    height: 380px;
+    left: 50%;
+    opacity: 0;
+    margin-left: -394px;
+    z-index: 100;
+}
+.disney_r h3 {
+    margin-bottom: 34px;
+    color: #2b2b2b;
+    font-weight: 400;
+}
+.disney_r p {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.disney_part5 {
+    width: 100%;
+    height: 980px;
+    position: relative;
+}
+.disney_part5 .disney_t.on {
+    animation: moveTop .6s ease both;
+    -webkit-animation: moveTop .6s ease both;
+}
+.disney_part5 .disney_r.on {
+    animation: moveTop .6s ease both;
+    -webkit-animation: moveTop .6s ease both;
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+}
+.disney_part5 .disney_r {
+    float: left;
+    position: relative;
+    top: 200px;
+}
+.disney_part5 .disney_r {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+}
+.disney_part6 {
+    width: 100%;
+    height: 1100px;
+    position: relative;
+    background: #f2f2f2;
+}
+.disney_part4 .disney_l {
+    width: 57%;
+}
+.disney_part4 .disney_l {
+    position: relative;
+    left: 20px;
+    opacity: 0;
+}
+.disney_part4 .disney_r {
+    position: relative;
+    right: 80px;
+    opacity: 0;
+}
+.disney_r {
+    width: 304px;
+    float: left;
+    position: relative;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.disney_part5 .disney_l.on {
+    animation: moveTop .6s ease both;
+    -weblit-animation: moveTop .6s ease both;
+    animation-delay: .2s;
+    -webkit-animation-delay: .2s;
+}
+.disney_part5 .disney_l {
+    float: right;
+    position: relative;
+    top: 200px;
+}
+disney_part5 .disney_l {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+}
+.disney_part6 .disney_b.on{
+    animation: moveBottom .6s ease both;
+    -webkit-animation: moveBottom .6s ease both;
+    animation-delay: .4s;
+    -webkit-animation-delay: .4s;
+}
+.disney_part6 .disney_b {
+    position: absolute;
+    bottom: 160px;
+    opacity: 0;
+}
+.anther {
+    height: 461px;
+}
+.disney_part6 .disney_l.on{
+    animation: moveTop .6s ease both;
+    -weblit-animation: moveTop .6s ease both;
+    animation-delay: .2s;
+    -webkit-animation-delay: .2s;
+}
+.disney_part6 .disney_l{
+    float: right;
+    position: relative;
+    top: 200px;
+    opacity: 0;
+}
+.disney_part6 .disney_r.on{
+    animation: moveLeft .6s ease both;
+    -weblit-animation: moveLeft .6s ease both;
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+}
+.disney_part6 .disney_r{
+    float: left;
+    opacity: 0;
+    position: relative;
+    left: 80px;
+}
+.disney_part7 {
+    width: 100%;
+    height: 460px;
+    background: url(../img/01-007.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.disney_part7_title {
+    position: relative;
+    top: 400px;
+}
+.disney_part7 a {
+    display: inline-block;
+    color: #00a2ff;
+}
+.disney_part8 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: #f4ffeb;
+}
+.disney_img {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 320px;
+    height: 320px;
+}
+.disney_part8 .next_contect {
+    width: 65%;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+.next_contect p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 16px;
+    color: #040404;
+}
+.next_contect h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040404;
+    margin-bottom: 20px;
+}
+.next_contect aside {
+    color: #040404;
+}
+.next_contect a {
+    display: block;
+    font-size: 16px;
+    color: #00baff;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}

@@ -1,0 +1,101 @@
+.O_S_caption {
+    text-align: center;
+}
+.ts_caption {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+}
+.O_S_caption b {
+    font-size: 24px;
+    font-weight: 400;
+}
+.O_S_caption span {
+    font-weight: 400;
+}
+.O_S_cell {
+    width: 200px;
+    float: left;
+}
+.O_S_cell b {
+    font-size: 24px;
+    font-weight: 400;
+}
+.O_S_two {
+    width: 370px;
+    float: left;
+    text-align: center;
+}
+.O_S_two img, .tO_S_three img {
+    width: 70%;
+}
+.tO_S_three {
+    width: 370px;
+    float: left;
+    text-align: center;
+}
+.ts_one {
+    width: 200px;
+}
+.ts_cell b, .ts_caption h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.ts_two {
+    width: 450px;
+}
+.ts_cell>p {
+    line-height: 30px;
+}
+.ts_cell p {
+    font-size: 18px;
+    line-height: 25px;
+}
+.ts_three {
+    width: 352px;
+}
+.ts_cell {
+    display: table-cell;
+    /* width: 501px; */
+}
+.ts_one {
+    width: 200px;
+}
+.ts_cell b, .ts_caption h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.ts_cell>div {
+    margin-bottom: 40px;
+}
+.ts_cell>div p {
+    line-height: 30px;
+}
+.ts_cell p {
+    font-size: 18px;
+    line-height: 25px;
+}
+.O_S_img {
+    width: 330px;
+    height: 380px;
+}
+.O_S_img img {
+    width: 100%;
+    height: 100%;
+}
+.ts_three {
+    width: 352px;
+}
+.ts_cell i {
+    font-style: normal;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+}
+@media screen and (max-width: 1000px) and (min-width: 800px){
+   
+    .O_S_two,.tO_S_three{
+        width:35%;
+    }
+}

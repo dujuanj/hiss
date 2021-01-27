@@ -1,0 +1,444 @@
+.HISS_Design_part11 {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    overflow: hidden;
+}
+.HISS_Design_part1 {
+    animation: moveTop .6s ease both;
+    -webkit-animation: moveTop .6s ease both;
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+}
+.HISS_Design_part1 {
+    height: 660px;
+    color: #FFF;
+    text-align: center;
+    background: url(../img/HISS_design_001.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    opacity: 0;
+}
+.HISS_Safe_title1 {
+    animation: opacity0To1 .6s ease both;
+    -webkit-animation: opacity0To1 .6s ease both;
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+}
+.HISS_Safe_title1 {
+    opacity: 0;
+}
+.HISS_Design_part1 h1 {
+    color: #4c4c4c;
+    padding-top: 100px;
+    font-size: 36px;
+}
+.HISS_Design_part1 p {
+    color: #4c4c4c;
+    line-height: 30px;
+    width: 576px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.HISS_Design_part41 {
+    overflow: hidden;
+    height: 285px;
+    position: relative;
+    overflow: hidden;
+    background: #eeeeee;
+}
+.HISS_Design_part4 {
+    background: url(../img/HISS_design002_02.jpg) center center no-repeat;
+    background-size: cover;
+    height: 514px;
+    width: 745px;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+    transition: all 1.2s ease-in-out;
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+}
+.HISS_Design_part5 {
+    background: #eeeeee;
+}
+.HISS_Design_part2 {
+    padding: 60px 0 45px 0;
+    position: relative;
+    background: #f6f6f6;
+}
+.HISS_Design_part2 > h1 {
+    color: #4c4c4c;
+    font-size: 36px;
+    text-align: center;
+}
+.HISS_Design_part5 .HISS_Design_part2 > p {
+    width: 658px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -329px;
+    line-height: 40px;
+    color: #4c4c4c;
+}
+.HISS_Design_part5 .HISS_Design_part2 > p {
+    width: 658px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -329px;
+    line-height: 40px;
+    color: #4c4c4c;
+}
+.HISS_Design_part2 > p {
+    color: #4c4c4c;
+    font-size: 16px;
+    text-align: center;
+    width: 608px;
+    line-height: 40px;
+    position: relative;
+    left: 50%;
+    margin-left: -304px;
+    margin-top: 28px;
+}
+.HISS_Design_part5 .HISS_Design_info {
+    height: 160px;
+}
+.HISS_Design_part2 .HISS_Design_info {
+    height: 250px;
+}
+.HISS_Design_info {
+    text-align: center;
+    overflow: hidden;
+    height: 150px;
+}
+.clearfix {
+    clear: both;
+}
+.HISS_Design_part5 .HISS_Design_pos {
+    position: relative;
+    top: 60px;
+    width: 742px;
+    margin-left: -378px;
+}
+.HISS_Design_pos {
+    position: relative;
+    width: 970px;
+    float: left;
+    top: 100px;
+    left: 50%;
+    margin-left: -485px;
+}
+.HISS_Design_mess {
+    float: left;
+    padding: 0 35px;
+    text-align: center;
+}
+.HISS_Design_mess p {
+    color: #0099ff;
+    font-size: 44px;
+    position: relative;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+.HISS_Design_mess span {
+    color: #4c4c4c;
+    display: block;
+    width: 165px;
+    text-align: center;
+}
+.HISS_Design_part5 .HISS_Design_info {
+    height: 160px;
+}
+.HISS_Design_part2 .HISS_Design_info {
+    height: 250px;
+}
+.HISS_Design_info {
+    text-align: center;
+    overflow: hidden;
+    height: 150px;
+}
+.HISS_Design_pos1 {
+    position: relative;
+    left: 50%;
+    margin-left: -375px;
+    top: 40px;
+    clear: both;
+    width: 750px;
+}
+.HISS_Design_mess p sub {
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+    left: -12px;
+}
+sub {
+    bottom: -0.25em;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.HISS_Design_part3 {
+    position: relative;
+}
+.HISS_Design_part3_list {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.HISS_Design_part2 {
+    padding: 60px 0 45px 0;
+    position: relative;
+    background: #f6f6f6;
+}
+.HISS_Design_part2 img {
+    width: 740px;
+    display: block;
+    font-size: 0;
+    margin: 0 auto;
+}
+.HISS_Design_part2 > h1 {
+    color: #4c4c4c;
+    font-size: 36px;
+    text-align: center;
+}
+.HISS_Design_part2 > p {
+    color: #4c4c4c;
+    font-size: 16px;
+    text-align: center;
+    width: 608px;
+    line-height: 40px;
+    position: relative;
+    left: 50%;
+    margin-left: -304px;
+    margin-top: 28px;
+}
+.HISS_Design_part2 .HISS_Design_info {
+    height: 250px;
+}
+.HISS_Design_part2 img {
+    width: 740px;
+    display: block;
+    font-size: 0;
+    margin: 0 auto;
+}
+HISS_Design_part61 {
+    height: 567px;
+    position: relative;
+    overflow: hidden;
+}
+.HISS_Design_part6 {
+    background: url(../img/HISS_design_003.jpg) center center no-repeat;
+    background-size: cover;
+    height: 667px;
+    position: relative;
+    top: -100px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+.HISS_Design_part61 {
+    height: 567px;
+    position: relative;
+    overflow: hidden;
+}
+.HISS_Design_part7 {
+    padding: 20px 0 100px 0;
+    text-align: center;
+    background: #FFF;
+    position: relative;
+}
+.HISS_Design_part7>p {
+    color: #adadad;
+    font-size: 14px;
+    text-align: center;
+}
+.HISS_Design_title {
+    margin-top: 85px;
+}
+.HISS_Design_title h1 {
+    font-size: 36px;
+    color: #4c4c4c;
+    margin-bottom: 30px;
+}
+.HISS_Design_title p {
+    color: #4c4c4c;
+    width: 660px;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.HISS_Design_part7_video {
+    width: 1002px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.loadingV {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    top: 0;
+    text-align: center;
+    line-height: 569px;
+}
+.HISS_Design_part7 .replay {
+    position: absolute;
+    bottom: 80px;
+}
+.replay, .replayNum {
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: -50px;
+    left: 50%;
+    cursor: pointer;
+}
+.replay a, .replayNum a {
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    color: #838383;
+    background: url(../img/replay.png) 21px 4px no-repeat;
+    background-size: 20px 20px;
+}
+.HISS_Design_part81 {
+    height: 633px;
+    position: relative;
+    overflow: hidden;
+}
+.HISS_Design_part8 {
+    background: url(../img/HISS_design_004.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 733px;
+    top: -200px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition: all 1.2s ease-in-out;
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+}
+.HISS_Design_part9 {
+    position: relative;
+}
+HISS_Design_part9 .disney_part8 {
+    background: #e6e6e6;
+}
+.disney_part8 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: #f4ffeb;
+}
+.hiss_header_content {
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.HISS_Design_part9 .disney_img {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.disney_img {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 320px;
+    height: 320px;
+}
+.HISS_Design_part9 img {
+    width: 250px;
+    height: 250px;
+}
+.disney_part8 .next_contect {
+    width: 65%;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+.next_contect {
+    width: 570px;
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    float: right;
+    font-size: 16px;
+}
+.HISS_Design_part9 span {
+    color: #4c4c4c;
+}
+.HISS_Design_part9 p {
+    color: #4c4c4c;
+}
+.next_contect p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 16px;
+    color: #040404;
+}
+.HISS_Design_part9 h2 {
+    color: #4c4c4c;
+}
+.next_contect h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #040404;
+    margin-bottom: 20px;
+}
+.HISS_Design_part9 aside {
+    color: #4c4c4c;
+}
+.next_contect a {
+    display: block;
+    font-size: 16px;
+    color: #00baff;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+.HISS_Design_part9 .disney_part8 {
+    background: #e6e6e6;
+}
+.disney_part8 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: #f4ffeb;
+}
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    .next_contect{
+        width:410px!important;
+        margin-right: 160px;
+    }
+    .HISS_Design_part7_video{
+        width: 900px;
+    }
+    .disney_part8 .next_contect{
+        left:100px;
+    }
+}

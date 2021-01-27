@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>智普信科技</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/inner.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/footer-color.css" type="text/css" media="screen">
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="css/rs-plugin/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/rs-plugin/preview.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/elements.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/animate.min.css" type='text/css'>
+    <!--[if lt IE 9]>
+    <link href='http//fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+  <![endif]-->
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/safirst.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" href="css/office-se.css">
+    <style>
+        .ft16 {
+            font-size: 16px !important;
+        }
+        .list-services li:first-child figure {
+            float: left;
+            margin: 60px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(2) figure {
+            float: left;
+            margin: 40px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(3) figure {
+            float: left;
+            margin: 40px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(4) figure {
+            float: left;
+            margin: 40px 15px 6px 0;
+            border: none;
+        }
+        .list-services li:nth-child(5) figure {
+            float: left;
+            margin: 50px 15px 6px 0;
+            border: none;
+        }
+        .ft14 {
+            font-size: 14px;
+        }
+        .title {
+            background: none;
+            margin-top: 130px;
+        }
+        .title i {
+            display: inline-block;
+            width: 63px;
+            height: 63px;
+            background: url(img/index-title.png) no-repeat;
+            background-size: 100%;
+            float: left;
+            margin-right: 15px;
+            margin-top: 27px;
+        }
+        .title h4 {
+            font-size: 36px;
+            text-align: left;
+        }
+        .title h4 span {
+            font-size: 28px;
+            color: #8a8a8a
+        }
+        [class*=' imghvr-'],
+        [class^=imghvr-] {
+            background-color: rgba(78, 179, 247, .7)
+        }
+        .news-content:hover img{
+            transform:scale(1.15)
+        }
+        .animate_p3,
+        .animate_p4,
+        .animate_p5,
+        .anipt8,
+        .anipt9 {
+            /* display: none; */
+            visibility: hidden;
+            position: relative;
+        }
+        .header .sub_sub_menu li .news{
+      color:#fff!important;
+    }
+    </style>
+</head>
+<body class="home-page stretched">
+    <div id="wrapper">
+        <!--==============================header=================================-->
+        {% include "header.html" %} 
+        <!--==============================content=================================-->       
+        <section class='resp_noneimg' id="content" style='background:#fff;padding-bottom: 0;'>
+            <!-- sfd_part1 -->
+            <div class="part1" style='background:#f6f6f6'>
+                <img src="./img/news_img_banner.png" alt="">
+                <div class="prt1_text">
+                    <h2 style='color:#fff;'>新闻动态</h2>
+                    <p style='font-size:36px;text-align: center;color:#fff;'>N E W S</p>
+                </div>
+            </div>
+            <div class="part2 newspart2" style='padding-top:170px;padding-bottom: 185px;background: #eee'>
+                <div class="container news">
+                </div>
+            </div>
+    </div>
+    </section>
+    <!--==============================footer=================================-->
+    {% include "footer.html" %}
+    </div>
+    <script type="text/javascript" src='js/jquery.js'></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.sliderTabs.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+    <!-- Tabs  -->
+    <script type="text/javascript" src="js/tabs.js"></script>
+    <!-- Sitemap  -->
+    <script type="text/javascript" src="js/sitemap.js"></script>
+    <!-- Navigation  -->
+    <script type="text/javascript" src="js/nav-small.js"></script>
+    <script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+    <script type='text/javascript' src='js/new.js'></script>
+    <!-- Elastislider  -->
+    <script>
+        $('.part1 .prt1_text').addClass('on');
+        jQuery("#carousel-blog").elastislide({
+            imageW: 270,
+            minItems: 2,
+            speed: 600,
+            easing: "easeOutQuart",
+            margin: 30,
+            border: 0,
+            onClick: function () { }
+        });
+        $(function () {
+            $('#carousel').carousel({ curDisplay: 0, autoPlay: true, interval: 3000 });
+        });
+    </script>
+    <!-- Image animated Style  -->
+    <script type="text/javascript">
+        $(function () {
+            $('#ri-grid').gridrotator({
+                rows: 4,
+                columns: 8,
+                maxStep: 2,
+                interval: 2000,
+                w1024: {
+                    rows: 5,
+                    columns: 6
+                },
+                w768: {
+                    rows: 5,
+                    columns: 5
+                },
+                w480: {
+                    rows: 6,
+                    columns: 4
+                },
+                w320: {
+                    rows: 7,
+                    columns: 4
+                },
+                w240: {
+                    rows: 7,
+                    columns: 3
+                },
+            });
+        });
+    </script>
+    <!-- Metro Style  -->
+    <!-- Revolution Slider  -->
+    <script>
+    </script>
+    <script type="text/javascript">
+        // initialise plugins
+        jQuery(function () {
+            // Banners button
+            jQuery('ul.banners_cycle li').mouseenter(function () {
+                jQuery(this).find('.button').stop(false, true).fadeIn();
+            })
+            jQuery('ul.banners_cycle li').mouseleave(function () {
+                jQuery(this).find('.button').stop(false, true).fadeOut();
+            });
+            // Banners
+            jQuery('ul.banners_cycle li:not(.style-1)').mouseenter(function () {
+                jQuery(this).css('z-index', '6');
+                jQuery(this).stop(false, true).animate({ right: '-64px' }, { easing: "swing", duration: 300 });
+                jQuery(this).animate({ right: '0' });
+            });
+            jQuery('ul.banners_cycle li:not(.style-1)').mouseleave(function () {
+                jQuery(this).stop(false, true).animate({ right: '-64px' });
+                jQuery(this).stop(false, true).animate({ right: '0' }, 'slow');
+            });
+            // Banner #2
+            jQuery('ul.banners_cycle li.style-2').mouseleave(function () {
+                jQuery(this).css('z-index', '5');
+            });
+            // Banner #3
+            jQuery('ul.banners_cycle li.style-3').mouseleave(function () {
+                jQuery(this).css('z-index', '4');
+            });
+            // Banner #4
+            jQuery('ul.banners_cycle li.style-4').mouseleave(function () {
+                jQuery(this).css('z-index', '3');
+            });
+            // Banner #5
+            jQuery('ul.banners_cycle li.style-5').mouseleave(function () {
+                jQuery(this).css('z-index', '2');
+            });
+            // Banner #6
+            jQuery('ul.banners_cycle li.style-6').mouseenter(function () {
+                jQuery('body').css('overflow-x', 'hidden');
+            });
+            jQuery('ul.banners_cycle li.style-6').mouseleave(function () {
+                jQuery(this).css('z-index', '1');
+                jQuery('body').css('overflow-x', 'hidden');
+            });
+        });
+        $(function () {
+            var winWidth, winHeight;
+            var win_h = $(window).height() * 0.64;
+            var win_height = $(window).height() * 1;
+            function funHeight(n, c) {
+                var F_high = $(window).scrollTop();
+                var t = $(n).offset().top;
+                if (F_high > t - win_h) {
+                    $(c).addClass("animated fadeInUp");
+                }
+                if (F_high == 0) {
+                }
+            };
+            $(window).scroll(function () {
+                if ($(".pro_part5  .video_li > li:nth-of-type(1) > video").hasClass("on")) {
+                    document.getElementById('one').play();
+                }
+            })
+        });
+    </script>
+</body>
+</html>

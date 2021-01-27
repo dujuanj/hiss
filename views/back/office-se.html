@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>智普信科技</title>
+
+    <!-- [loading stylesheets] -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+    <style>
+            #mask {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 5rem;
+        width: 100%;
+        height: 100%;
+      }
+    
+      #carousel {
+        position: relative;
+        z-index: 2;
+        height: 200px;
+        margin-top:5rem;
+    
+        transform-style: preserve-3d;
+        perspective: 800px;
+      }
+      #carousel img {
+        position: absolute;
+    left: 67%;
+    top: 50%;
+    width: 12rem;
+    height: 9rem;
+    margin-left: -150px;
+    margin-top: -100px;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+      }
+        </style>
+    <!-- [loading scripts] -->
+
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type='text/javascript' src='js/carousel.js'></script>
+
+    <script type="text/javascript">
+        var $ = jQuery.noConflict();
+        $(window).load(function () {
+            $('#qbTrans-pageTrans-dialog').remove();
+            $('#slider').flexslider({
+                animation: "slide",
+                directionNav: true,
+                animationLoop: false,
+                controlNav: false,
+                slideToStart: 1,
+                slideshow: true,
+                animationDuration: 300,
+                start: function () {
+                    $('#slider').animate({ opacity: 1 }, 750);
+                },
+            });
+        });
+    </script>
+    <script>
+            $(function () {
+      $('#carousel').carousel({curDisplay: 0, autoPlay: true, interval: 3000});
+    });
+</script>
+</head>
+
+<body>
+
+    <section id="page-wrapper">
+        <!-- 导航 -->
+        <section id="menu-wrapper">
+            <!--             	
+                <div id="menu-search">
+                    <input id="menu-search-input-text" type="text" placeholder="Search..." />
+                    <input id="menu-search-input-submit" type="submit" value="" />
+                </div> -->
+
+            <ul class="menu">
+
+                <li class="icon home">
+                    <a href="index.html">
+                        <span class="menu-li-title">网站首页</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li id="a-submenu-1" class="icon box" >
+                    <a href="#">
+                        <span class="menu-li-title">解决方案</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-1" style='background: #eee;'>
+                        <li style='padding-top:1.2rem' link='smart-office.html'>
+                            <a href="smart-office.html">
+                                <span class="menu-li-title">智能办公</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link='office-se.html'>
+                            <a href="office-se.html">
+                                <span class="menu-li-title">共享空间</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="shared-parking.html">
+                            <a href="shared-parking.html">
+                                <span class="menu-li-title">共享停车</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="shared-storage.html">
+                            <a href="shared-storage.html">
+                                <span class="menu-li-title">共享仓储</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="cloud.html">
+                            <a href="cloud.html">
+                                <span class="menu-li-title">智能安防云</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="baoguan.html">
+                            <a href="baoguan.html" style='display: inline-block;height: 4rem;'>
+                                <span class="menu-li-title">重要物品保管</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                      
+                    </ul>
+
+                </li>
+                <li id="a-submenu-2" class="icon box">
+                    <a href="#">
+                        <span class="menu-li-title">产品中心</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-2" style='display: none;background: #eee;height: 21rem;'>
+                        <li style='padding-top:1.2rem;' link="safirst.html">
+                            <a href="safirst.html">
+                                <span class="menu-li-title">Safirst/初柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link="leBox.html">
+                            <a href="leBox.html">
+                                <span class="menu-li-title">Le-Box/乐盒</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="O_S.summary.html">
+                            <a href="O_S.summary.html">
+                                <span class="menu-li-title">O.S Cabinet</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="HISSSafe-summary.html">
+                            <a href="HISSSafe-summary.html">
+                                <span class="menu-li-title">Hiss Safe/保险柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="smart-access.html">
+                            <a href="smart-access.html">
+                                <span class="menu-li-title">智能门禁</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="icon info">
+                    <a href="customer-case.html">
+                        <span class="menu-li-title">客户案例</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li class="icon blog">
+                    <a href="news.html">
+                        <span class="menu-li-title">新闻动态</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                <li class="icon blog">
+                    <a href="about.html">
+                        <span class="menu-li-title">关于智普信</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+
+            </ul> <!-- .menu -->
+        </section> <!-- #menu-wrapper -->
+
+
+        <section id="content-wrapper">
+
+            <section id="header">
+
+                <div id="header-left">
+                    <!-- <a href="#" id="a-menu"><img src="img/icons/menu.png" alt="menu" /></a> -->
+                    <a href="index.html"><img style='margin:0.5rem 0 0 1.5rem;width:6rem;' src="./img/icon_logo.png" alt=""></a>
+                </div>
+
+                <div id="header-title">
+                    <!-- <h1>公司名称</h1> -->
+                </div>
+
+                <div id="header-right">
+                    <a href="#" id="a-menu"><img src="img/index_icon_drop.png" alt="menu" /></a>
+                    <!-- <a href="#" id="header-search-link"><img src="img/icons/share.png" alt="Search" /></a>                     -->
+                </div>
+            </section> <!-- #header -->
+            <div id='contents'>
+                <div style='height:3rem;background: #f2f2f2;line-height: 3rem;'>
+                    <div class="wrapper">
+                        <h6 style="line-height:3rem;">共享空间</h6>
+                    </div>
+
+                </div>
+                <div style='position: relative;'>
+                    <img src="./img/s_office_img_bg.png" alt="">
+                    <div style='position: absolute;top:30%;width:100%;text-align: center;'>
+                        <h2 style='color:#fff;margin-bottom: 0;'>共享办公解决方案</h2>
+                        <p style='color:#fff;text-align: center;'>SHARED OFFICE SOLUTION</p>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <img src="./img/images/office_03.png" alt="">
+                    <h2 style='margin-top:2rem;'>灵活办公</h2>
+                    <p style='text-align:center;'>支持多种类型，灵活办公，满足各种规模的团。</p>
+                    <div style='margin-top:2rem;'>
+                        <img src="./img/images/office_06.png" alt="">
+                    </div>
+                </div>
+
+                <article>
+
+                    <div class="wrapper">
+                        <h2>真正的“短租”</h2>
+                        <p style='text-align: center;'>工位和房间租期低至1天，会议室租期低至30分钟</p>
+                        <p style='text-align: center;text-indent: 0;margin-top:0'>低押金，高弹性，支持提前退款。</p>
+                        <div style='text-align: center;margin-top:2rem;'>
+                            <img src="./img/s_office_img_cal.png" alt="" style='width:80%'>
+                        </div>
+                        <div style='text-align: center;margin-top:2rem;'>
+                            <img src="./img/s_office_img_direct.png" alt="" style='width:22%'>
+                        </div>
+                        <div style='text-align: center;margin-top:2rem;'>
+                            <img src="./img/s_office_img_rent.png" alt="" style='width:80%'>
+                        </div>
+                        <div style='text-align: center;margin-top:2rem;'>
+                            <img src="./img/s_office_img_d7.png" alt="" >
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/images/office_08.png" alt="">
+                    </div>
+                    <div style='background: #f2f2f2;'>
+                            <img src="./img/images/office_10.png" alt="">
+                            <div class="wrapper">
+                                    <h2>无缝对接</h2>
+                                    <p style='text-align: center;'>无缝对接网络服务商、信用评估系统、消防系统、</p>
+                                    <p style='text-align: center;text-indent: 0;margin-top:0'>维修系统、安保系统和保洁系统，<br> 建立完善的生态圈。</p>
+                                    <div class="mt2" style='padding-bottom: 2rem;'>
+                                        <img src="./img/s_office_ic_dock.png" alt="">
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="wrapper">
+                        <h2>应用场景</h2>
+                        <div class="mt2">
+                                <img src="./img/images/office_13.png" alt="">
+                            </div>
+                         
+                    </div>
+                    <div class="wrapper">
+                            <h2>功能模块</h2>
+                            <div id="mask"></div>
+        
+                            <div id="carousel">
+                                <img src="./img/s_office_img_fea_a.png" alt="会议室管理">
+                                <img src="./img/s_office_img_fea_d.png" alt="工位租赁管理">
+                                <img src="./img/s_office_img_fea_do.png" alt="门禁管理">
+                                <img src="./img/s_office_img_fea_o.png" alt="活动管理">
+                                <img src="./img/s_office_img_fea_s.png" alt="数据与运营方案对接">
+                              
+                            </div>
+                            <div id='prt9text' style='text-align:center;font-size:14px;font-weight: bold;color:#1c9cf4'>会议室管理</div>
+                        </div>
+                      
+
+
+                </article> <!-- #post -->
+                <section id="footer">
+                    <div style='display: flex;'>
+                        <div style='margin-right:3rem;'>
+                            <img src="./img/logo_footer.png" alt="">
+                            <p style='font-size:0.8rem;'>关于智普信</p>
+                            <p><a href="about.html">公司介绍</a></p>
+                            <p><a href="about.html#part4">品牌理念</a></p>
+                            <p><a href="about.html#part5" >发展历程</a></p>
+                            <p><a href="about.html#part7">专利认证</a></p>
+                            <p><a href="about.html#part9">联系我们</a></p>
+                            <p style='margin-top:2.5rem;font-size:1rem;'>关注我们</p>
+                        </div>
+                        <div>
+                            <p style='margin-top:3.3rem;'>北京总部</p>
+                            <p style='line-height: 20px;'>电话：010-8447-1877 400-928-1122</p>
+                            <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                            <p style='line-height: 20px;'>地址：北京市 朝阳区 朝外大街乙6号 朝外SOHO B座0608室</p>
+                            <p style='margin-top:1.3rem;'>无锡分部</p>
+                            <p style='line-height: 20px;'>电话：0510-85678888</p>
+                            <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                            <p style='line-height: 20px;'>地址：江苏省 无锡市 锡山区 翠山路488号锡东创谷C栋509</p>
+                            <div style='display: flex;margin-top:2rem;line-height: 20px;'>
+                                <div style='margin-right:3rem;text-a lign: center;'><img src="./img/index_code_wx.png"
+                                        alt="">
+                                    <div>【微信公众号】</div>
+                                </div>
+                                <div style='text-align: center;'><img src="./img/index_code_wb.png" alt="">
+                                    <div>【官方微博】</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section> <!-- #footer -->
+
+        </section> <!-- #content-wrapper -->
+    </section> <!-- #page-wrapper -->
+</body>
+
+</html>

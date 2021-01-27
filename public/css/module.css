@@ -1,0 +1,52 @@
+.part1{
+    height: 900px;
+    width:100%;
+    background: url(../img/iot_img_1.png) center center no-repeat;
+    background-size: cover;
+}
+h5{
+    text-align: center;
+    font-size:16px;
+}
+
+h2{
+    font-size: 28px;
+}
+.part3{
+    margin-top:90px;
+    position: relative;
+}
+.prt3_left div,.prt3_left h4{
+    margin-left:100px;
+   
+}
+
+.prt3_left h4{
+    font-weight: 500;
+}
+.prt4_bg{
+    height: 315px;
+    background: url(../img/module_prt4_img.png) center center no-repeat;
+    background-size: cover;
+   
+}
+.prt4_bg div{
+    color:#fff;
+}
+.prt4_bg img{
+    margin-bottom: 20px;
+}
+.prt5_bg{
+    height: 515px;
+    width:100%;
+    /* background: #f2f1f2; */
+    background: url(../img/moudle_prt5.png) center center no-repeat;
+    background-size: cover;
+}
+.prt5_bg div{
+    color:#313131;
+}
+.prt6_img div{
+    margin-right: 15px;
+}
+

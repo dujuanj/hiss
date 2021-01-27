@@ -1,0 +1,44 @@
+main.news_lsit_details {
+    padding: 80px 40px 60px 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box!important;
+    box-shadow: 0 0 1px #d8d8d8, /*左边阴影*/3px 0 8px #d8d8d8, /*右边阴影*/0 0px #d8d8d8, /*顶部阴影*/ 0 5px 8px #d8d8d8!important;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    background: #FFF;
+    width: 1180px;
+}
+
+.cloud_wrap {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.news_lsit_title {
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+.news_lsit_title h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.news_lsit_title p {
+    font-size: 16px;
+    color: #7d7d7d;
+    /* line-height: 17px; */
+}
+.news_lsit_details article {
+    margin-top: 33px;
+    font-family: "Microsoft YaHei";
+    color:#313131;
+}
+.news_lsit_details article p {
+    line-height: 32px;
+    font-size: 16px;
+    text-indent: 32px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #000;
+}

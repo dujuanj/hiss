@@ -1,0 +1,25 @@
+.part1{
+    /* height: 300px; */
+}
+.part2{
+    background: #f6f6f6;
+    height: 660px;
+}
+h2{
+    font-size:28px;
+}
+.part4{
+    /* background: url(../img/commu_prt4.png) center center no-repeat; */
+    background: url(../img/commu_prt4.png) center center no-repeat;
+    
+    background-size: cover;
+    height: 590px;
+    text-align: center;
+    position: relative;
+    /* border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc; */
+    margin-top:120px;
+}
+.part5{
+    height: 800px;
+}

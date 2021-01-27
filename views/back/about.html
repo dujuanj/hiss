@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>智普信科技</title>
+
+    <!-- [loading stylesheets] -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+
+    <!-- [loading scripts] -->
+    <style>
+    article.odd {
+    background: #404f66;
+}
+.company_wrap {
+    padding: 60px 0;
+}
+.cloud_wrap {
+    width:100%;
+    margin: 0 auto;
+    position: relative;
+}
+.company_title {
+    text-align: center;
+}
+.info_time {
+    width: 18rem;
+    height: 12rem;
+    margin: 130px auto 0 auto;
+    position: relative;
+}
+.info_time li {
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    position: absolute;
+}
+.info_time li.time_1 {
+    top: 0;
+    z-index: 8;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.time_wrap {
+    padding: 35px 30px 0 30px;
+}
+.time_wrap h3 {
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    margin-bottom: 11px;
+    font-weight: 400;
+}
+.time_wrap p {
+    line-height: 1.6rem;
+    font-size:0.85rem;
+    font-family: "Microsoft YaHei";
+}
+.info_time li.time_2 {
+    top: -30px;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    background: #b3b9c2;
+    z-index: 7;
+}
+.info_time li.time_3 {
+    top: -60px;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    background: #8c95a3;
+    z-index: 6;
+}
+.info_time li.time_4 {
+    top: -90px;
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    background: #667285;
+    z-index: 5;
+}
+.info_time li.time_5 {
+    top: -120px;
+    transform: scale(.6);
+    -webkit-transform: scale(.6);
+    -moz-transform: scale(.6);
+    -ms-transform: scale(.6);
+    -o-transform: scale(.6);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    z-index: 4;
+    opacity: 0;
+}
+.info_time li.time_6 {
+    top: -150px;
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    z-index: 3;
+    opacity: 0;
+}
+.info_time li.time_7 {
+    top: -180px;
+    transform: scale(.4);
+    -webkit-transform: scale(.4);
+    -moz-transform: scale(.4);
+    -ms-transform: scale(.4);
+    -o-transform: scale(.4);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    z-index: 2;
+    opacity: 0;
+}
+.info_time li.time_8 {
+    top: -210px;
+    transform: scale(.3);
+    -webkit-transform: scale(.3);
+    -moz-transform: scale(.3);
+    -ms-transform: scale(.3);
+    -o-transform: scale(.3);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    z-index: 1;
+    opacity: 0;
+}
+.next01, .prev01 {
+    width: 17px;
+    height: 31px;
+    background-size: 34px 31px;
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+.next01 {
+    background: url(../img/lunbo.png) 0px 0px no-repeat;
+    left: 1rem;
+}
+.prev01 {
+    background: url(../img/lunbo.png) -17px 0px no-repeat;
+    right: 1rem;
+}
+.period {
+    position: relative;
+}
+.period_line {
+    width: 100%;
+    height: 2px;
+    background: #667285;
+    margin-top: 70px;
+}
+.period ul {
+    width: 100%;
+    clear: both;
+    position: relative;
+    left: 0;
+    margin-left: 0.5rem;
+}
+.cf {
+    zoom: 1;
+}
+.period ul li.on {
+    color: #66a3ff;
+}
+.period ul li:first-child {
+    margin-left: 0;
+}
+.period ul li {
+    float: left;
+    margin-left:4%;
+    padding-top:1.1rem;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+.white {
+    color: #FFF;
+}
+.period ul li.on:before {
+    background-color: #66a3ff;
+}
+.period ul li:before {
+    content: "";
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    background: #FFF;
+    top: -0.4rem;
+    left: 50%;
+   
+}
+.company_wrap {
+   padding-top:2rem;
+   padding-bottom: 120px;
+   margin-top:2.5rem;
+   margin-bottom: 2rem;
+}
+    </style>
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+
+    <script type="text/javascript">
+        var $ = jQuery.noConflict();
+        $(window).load(function () {
+            $('#qbTrans-pageTrans-dialog').remove();
+            $('#slider').flexslider({
+                animation: "slide",
+                directionNav: true,
+                animationLoop: false,
+                controlNav: false,
+                slideToStart: 1,
+                slideshow: true,
+                animationDuration: 300,
+                start: function () {
+                    $('#slider').animate({ opacity: 1 }, 750);
+                },
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <section id="page-wrapper">
+        <!-- 导航 -->
+        <section id="menu-wrapper">
+                <!--             	
+                    <div id="menu-search">
+                        <input id="menu-search-input-text" type="text" placeholder="Search..." />
+                        <input id="menu-search-input-submit" type="submit" value="" />
+                    </div> -->
+    
+                <ul class="menu">
+    
+                    <li class="icon home">
+                        <a href="index.html">
+                            <span class="menu-li-title">网站首页</span>
+                            <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+    
+                    <li id="a-submenu-1" class="icon box" >
+                        <a href="#">
+                            <span class="menu-li-title">解决方案</span>
+                            <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                        <ul id="submenu-1" style='background: #eee;'>
+                            <li style='padding-top:1.2rem' link='smart-office.html'>
+                                <a href="smart-office.html">
+                                    <span class="menu-li-title">智能办公</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+    
+                            <li link='office-se.html'>
+                                <a href="office-se.html">
+                                    <span class="menu-li-title">共享空间</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                            <li link="shared-parking.html">
+                                <a href="shared-parking.html">
+                                    <span class="menu-li-title">共享停车</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                            </li>
+                            <li link="shared-storage.html">
+                                <a href="shared-storage.html">
+                                    <span class="menu-li-title">共享仓储</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                            </li>
+                            <li link="cloud.html">
+                                <a href="cloud.html">
+                                    <span class="menu-li-title">智能安防云</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                            </li>
+                            <li link="baoguan.html">
+                                <a href="baoguan.html" style='display: inline-block;height: 4rem;'>
+                                    <span class="menu-li-title">重要物品保管</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                            </li>
+                          
+                        </ul>
+    
+                    </li>
+                    <li id="a-submenu-2" class="icon box">
+                        <a href="#">
+                            <span class="menu-li-title">产品中心</span>
+                            <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                        <ul id="submenu-2" style='display: none;background: #eee;height: 21rem;'>
+                            <li style='padding-top:1.2rem;' link="safirst.html">
+                                <a href="safirst.html">
+                                    <span class="menu-li-title">Safirst/初柜</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+    
+                            <li link="leBox.html">
+                                <a href="leBox.html">
+                                    <span class="menu-li-title">Le-Box/乐盒</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                            <li link="O_S.summary.html">
+                                <a href="O_S.summary.html">
+                                    <span class="menu-li-title">O.S Cabinet</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                            </li>
+                            <li link="HISSSafe-summary.html">
+                                <a href="HISSSafe-summary.html">
+                                    <span class="menu-li-title">Hiss Safe/保险柜</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                            </li>
+                            <li link="smart-access.html">
+                                <a href="smart-access.html">
+                                    <span class="menu-li-title">智能门禁</span>
+                                    <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                            </li>
+    
+                        </ul>
+    
+                    </li>
+    
+                    <li class="icon info">
+                        <a href="customer-case.html">
+                            <span class="menu-li-title">客户案例</span>
+                            <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+    
+                    <li class="icon blog">
+                        <a href="news.html">
+                            <span class="menu-li-title">新闻动态</span>
+                            <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                    <li class="icon blog">
+                        <a href="about.html">
+                            <span class="menu-li-title">关于智普信</span>
+                            <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+    
+    
+                </ul> <!-- .menu -->
+            </section> <!-- #menu-wrapper -->
+
+
+        <section id="content-wrapper">
+
+            <section id="header" style='height:2rem;'>
+
+                <div id="header-left">
+                 
+                    <a href="index.html"><img style='margin:0.5rem 0 0 1.5rem;width:6rem;' src="./img/icon_logo.png" alt=""></a>
+                </div>
+
+                <div id="header-title">
+                    <!-- <h1>公司名称</h1> -->
+                </div>
+
+                <div id="header-right">
+                    <a href="#" id="a-menu"><img src="img/index_icon_drop.png" alt="menu" /></a>
+                    <!-- <a href="#" id="header-search-link"><img src="img/icons/share.png" alt="Search" /></a>                     -->
+                </div>
+            </section> <!-- #header -->
+            <div id='contents'>
+                <div style='height:3rem;background: #f2f2f2;line-height: 3rem;'>
+                    <div class="wrapper">
+                        <h6 style="line-height:3rem;">关于智普信</h6>
+                    </div>
+
+                </div>
+                <div style='position: relative;'>
+                    <img src="./img/about_img_bg.png" alt="">
+                    <div style='position: absolute;top:35%;width:100%;text-align: center;'>
+                        <h2 style='color:#fff;margin-bottom: 0;'>关于智普信</h2>
+                        <p style='color:#fff;text-align: center;'>ABOUT ZEEPSON</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                  
+                    <h2 class="mt2">公司介绍</h2>
+                    <H6 style='text-align: center;'>全球领先的安防行业云服务提供商</H6>
+                    <p style='text-align: center;'>京智普信科技股份有限公司成立于2008年，是国家双高新技术企业，专注于智能家庭/商业<br>安全系统的物联网+移动互联网公司, <br> 并获得ISO9001质量体系认证。</p>
+                    
+                    <div style='text-align: center;margin-top:2rem;'>
+                        <img src="./img/images/about_03.png" alt="" >
+                    </div>
+                    <h2 class="mt2" id='part4'>品牌理念</h2>
+                    <p style='text-align: center;'>用睿智的思想宏深的智慧，与安防企业一路同行</p>
+                    
+                    <h5 style="text-align: center;">企业使命</h5>
+                  
+                    <p style='text-align: center;'>从核心到外围，从重要物品管控到环境安全管控</p>
+                    <p style='text-align: center;text-indent: 0;margin-top:0'>向企业与家庭提供最简单的安全O2O产品与服务</p>
+                
+                    <div style='text-align: center;margin-top:2rem;'>
+                        <img src="./img/about_img_bra1.png" alt="" >
+                    </div>
+                    <h5 style="text-align: center;margin-top:1.5rem;">核心价值</h5>
+                  
+                    <p style='text-align: center;'>激情创新，团队协作，追求卓越，是智普信科技全体员工的共同信仰</p>
+                   
+                
+                    <div style='text-align: center;margin-top:2rem;'>
+                        <img src="./img/about_img_bra2.png" alt="" >
+                    </div>
+                    <h5 style="text-align: center;margin-top:1.5rem">发展战略</h5>
+                  
+                    <p style='text-align: center;'>我们不断给自己设立新的挑战，绝不满足于过往的成就，通过开拓和创新，坚持不懈地为客户缔造卓越</p>
+                    <div style='text-align: center;margin-top:2rem;'>
+                        <img src="./img/about_img_bra4.png" alt="" >
+                    </div>
+                   
+                
+                   
+                  
+                   
+                </div>
+                <!-- 发展历程 -->
+                <div id='part5'>
+                    <article class="company_wrap odd">
+                            <div class="cloud_wrap">
+                              <div class="company_title">
+                                <h1 class="white">发展历程</h1>
+                                <p class="white">十年磨一剑，以丰富安防行业经验缔造 <br> 下一个辉煌</p>
+                              </div>
+                              <ul class="info_time" id="info_time">
+                                <li class="time_1">
+                                  <div class="time_wrap">
+                                    <h3>2008年</h3>
+                                    <p>公司成立</p>
+                                  </div>
+                                </li>
+                                <li class="time_2">
+                                  <div class="time_wrap">
+                                    <h3>2009年</h3>
+                                    <p>是通过自有知识产权，中国第一个成功研发出基于UHF RFID技术的军警用 装备追踪产品的公司</p>
+                                  </div>
+                                </li>
+                                <li class="time_3">
+                                  <div class="time_wrap">
+                                    <h3>2012年</h3>
+                                    <p>公司完成股份制改革，成为中关村首批30个三板推荐企业</p>
+                                  </div>
+                                </li>
+                                <li class="time_4">
+                                  <div class="time_wrap">
+                                    <h3>2013年</h3>
+                                    <p>获得国家高新技术企业认证，中国首个智能枪弹柜国家标准获得者</p>
+                                  </div>
+                                </li>
+                                <li class="time_5">
+                                  <div class="time_wrap">
+                                    <h3>2014年</h3>
+                                    <p>全球首个全智能保险柜制造者</p>
+                                  </div>
+                                </li>
+                                <li class="time_6">
+                                  <div class="time_wrap">
+                                    <h3>2016年</h3>
+                                    <p><span>HISS打造中国首个智能安防云平台</span></p>
+                                  </div>
+                                </li>
+                               
+                                 <li class="time_7">
+                                  <div class="time_wrap">
+                                    <h3>2018年</h3>
+                                    <p>以HISS智能安防云平台为依托，形成智能安防解决方案：为共享办公空间赋能的HISSAIR</p>
+                                  </div>
+                                </li>
+                                <li class="time_8">
+                                        <div class="time_wrap">
+                                          <h3>未来</h3>
+                                          <p>以丰富安防行业经验缔造下一个辉煌</p>
+                                        </div>
+                                 </li>
+                    
+                              </ul>
+                              <div class="next01"></div>
+                              <div class="prev01"></div>
+                            </div>
+                            <div class="period">
+                              <div class="period_line"></div>
+                              <ul class="cf">
+                                <li class="on">2008</li>
+                                <li class="">2009</li>
+                                <li class="">2012</li>
+                                <li class="">2013</li>
+                                <li class="">2014</li>
+                                <li class="">2016</li>
+                                <li class="">2018</li>
+                                <li class="">未来</li>
+                              </ul>
+                            </div>
+                          </article>
+            </div>
+               
+                <div class="wrapper">
+                    <h2 id='part7'>专利认证</h2>
+                    <div class="wrapper">
+                        <img src="./img/images/about_07.png" alt="">
+                    </div>
+                </div>
+                <div style='background: #f2f2f2;padding-bottom: 2rem;'>
+                    <h2 style='padding-top:2rem' id='part9'>联系我们</h2>
+                    <div class="wrapper">
+                         <p>凡购买的智普信产品将根据公司保修政策提供保修服务与
+                        技术支持，相关售后服务及技术支持，请联系： <br>
+                        zps@zeepson.com</p>
+                        <p style='text-indent: 0;'><span style='font-weight: bold;'>客服热线 : </span>400-928-1122</p>
+                        <p style='text-indent: 0;'><span style='font-weight: bold;'>服务时间 : </span>周一至周五，上午9点至12点，下午2点至6点</p>
+                    </div>
+                   
+                </div>
+               
+              
+
+
+
+
+                <section id="footer">
+                    <div style='display: flex;'>
+                        <div style='margin-right:3rem;'>
+                            <img src="./img/logo_footer.png" alt="">
+                            <p style='font-size:0.8rem;'>关于智普信</p>
+                            <p><a href="about.html">公司介绍</a></p>
+                            <p><a href="about.html#part4">品牌理念</a></p>
+                            <p><a href="about.html#part5" >发展历程</a></p>
+                            <p><a href="about.html#part7">专利认证</a></p>
+                            <p><a href="about.html#part9">联系我们</a></p>
+                            <p style='margin-top:2.5rem;font-size:1rem;'>关注我们</p>
+                        </div>
+                        <div>
+                            <p style='margin-top:3.3rem;'>北京总部</p>
+                            <p style='line-height: 20px;'>电话：010-8447-1877 400-928-1122</p>
+                            <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                            <p style='line-height: 20px;'>地址：北京市 朝阳区 朝外大街乙6号 朝外SOHO B座0608室</p>
+                            <p style='margin-top:1.3rem;'>无锡分部</p>
+                            <p style='line-height: 20px;'>电话：0510-85678888</p>
+                            <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                            <p style='line-height: 20px;'>地址：江苏省 无锡市 锡山区 翠山路488号锡东创谷C栋509</p>
+                            <div style='display: flex;margin-top:2rem;line-height: 20px;'>
+                                <div style='margin-right:3rem;text-align: center;'><img src="./img/index_code_wx.png"
+                                        alt="">
+                                    <div>【微信公众号】</div>
+                                </div>
+                                <div style='text-align: center;'><img src="./img/index_code_wb.png" alt="">
+                                    <div>【官方微博】</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section> <!-- #footer -->
+
+        </section> <!-- #content-wrapper -->
+    </section> <!-- #page-wrapper -->
+</body>
+<script>
+        // 发展历程
+        var arr = [];
+var newArr = [];
+var rotation = $(".info_time li").attr("class");
+var moveTime = 0;
+var temp;
+$(".info_time li").each(function(index) {
+    var liClass = $(this).attr("class");
+    arr.push(liClass);
+});
+
+
+$(".next01").click(function() {
+    moveTime--;
+    if (moveTime < 0) { moveTime = 6 }
+    temp = arr[0];
+    arr.shift();
+    arr.push(temp)
+
+    $(".info_time li").each(function(index) {
+        var liClass = $(this).attr("class");
+        $(this).attr("class", arr[index]);
+    });
+    $(".period li").eq(moveTime).addClass("on").siblings().removeClass("on");
+});
+
+
+
+
+$(".prev01").click(function() {
+    moveTime++;
+    if (moveTime > arr.length - 1) { moveTime = 0 };
+    temp = arr[arr.length - 1];
+    arr.pop();
+    arr.splice(0, 0, temp);
+    $(".info_time li").each(function(index) {
+        var liClass = $(this).attr("class");
+        $(this).attr("class", arr[index]);
+    });
+    $(".period li").eq(moveTime).addClass("on").siblings().removeClass("on");
+});
+</script>
+</html>

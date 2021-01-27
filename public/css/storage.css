@@ -1,0 +1,215 @@
+.part1{
+    height: 630px;
+    /* border-bottom: 1px solid #ccc; */
+}
+.part2 h2{
+    font-size:28px;
+    margin-top:100px;
+    margin-left: 30px;
+}
+.part2{
+    border-top: 1px solid #ccc;
+    margin-top:60px;
+    border-bottom: 1px solid #ccc;
+}
+.OS_part1 p{
+    font-size: 16px;
+    color:#313131;
+    margin-bottom:5px;
+}
+.part3{
+    height: 420px;
+    /* border-bottom: 1px solid #ccc; */
+}
+.part3 h2{
+   
+    font-size:28px;
+}
+.face_part3 div{
+   text-align: center;
+   color:#313131;
+   font-size: 16px;
+}
+.part4{
+    /* height: 630px; */
+    /* border-bottom: 1px solid #ccc; */
+    background: #f3f3f4;
+}
+.part4 h2{
+    font-size:28px;
+}
+.part4 .icons i{
+    display: inline-block;
+    width:50px;
+    height: 50px;
+     background: url(../img/stor_icon_1.png) center center no-repeat;
+     background-size: cover;
+     vertical-align: middle;
+}
+.part4 .icon_1 i{
+    background: url(../img/stor_icon_2.png) center center no-repeat;
+}
+.part4 .icon_2 i{
+    background: url(../img/stor_icon_3.png) center center no-repeat;
+}
+.part4 .icon_3 i{
+    background: url(../img/stor_icon_4.png) center center no-repeat;
+}
+.part4 .icons span{
+    font-size: 16px;
+    color:#313131;
+    display: inline-block;
+    width:270px;
+    vertical-align: middle;
+    line-height: 24px;
+    margin-left:15px;
+}
+.part4 .icons{
+    margin-bottom: 35px;
+}
+.pt4_text {
+    width:30%;
+}
+.pt4_text p{
+    margin-top:15px;
+}
+.part5_bg{
+    /* height: 565px; */
+    /* background: url(../img/face_pt5_bg.png) center center no-repeat; */
+    /* background-size: cover; */
+    background: #f3f3f4;
+}
+.part6{
+    /* height: 515px; */
+    /* border-bottom: 1px solid #ccc; */
+    /* margin-top:80px; */
+    background: #f3f3f4;
+    padding-bottom: 100px;
+}
+.part6 h2{
+    font-size: 28px;
+   
+}
+.part6 .span4{
+    background: #fff;
+    height: 194px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.wooden div{
+    font-size: 16px;
+    color:#313131
+}
+.glass{
+    position: absolute;
+    top:140px;right:160px;
+}
+.glass div{
+    color:#fff;
+}
+.part7 .img{
+    height: 290px;
+   
+    background: url(../img/face_pt7_bg.png) center center no-repeat;
+    background-size: cover;
+}
+.part7{
+    margin-top:20px;
+    position: relative;
+    /* height: 1000px; */
+    padding-bottom: 120px;
+}
+.part7 h2{
+    font-size:28px;
+  
+    margin-top:70px;
+}
+.part7 .container{
+    text-align: center;
+  
+}
+.part7 .container i{
+    display: inline-block;
+    width:26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-right:15px;
+}
+.pt7_icon1{
+    background: url(../img/face_pt7_icon1.png) center center no-repeat;
+}
+.pt7_icon2{
+    background: url(../img/face_pt7_icon2.png) center center no-repeat;
+}
+.pt7_icon3{
+    background: url(../img/face_pt7_icon3.png) center center no-repeat;
+}
+.pt7_icon4{
+    background: url(../img/face_pt7_icon4.png) center center no-repeat;
+}
+.pt8_text{
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+.pt8_text h2{
+    font-size:28px;
+}
+.pt8_text div{
+    color:#313131;
+}
+.part9{
+    margin:100px 0;
+}
+.pt9_text h2{
+    font-size:28px;
+}
+.pt9_text{
+    float:left;
+    margin-top:165px;
+    margin-left: 50px;
+}
+.part5_bg h2{
+    margin-top:60px;
+    font-size:28px;
+    text-align: center;
+}
+.part5 .row div{
+    width:220px;
+    height: 360px;
+    /* border:1px solid #313131; */
+    background: #fff;
+}
+.part5 .row p{
+    padding: 15px;
+}
+.prt6_icon i{
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    background: url(../img/stor_icon_5.png) center center no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+.prt6_icon span{
+    font-size:28px;
+    color:#313131;
+    vertical-align: middle;   
+    margin-left:20px;
+}
+.part6 .prt_1 i{
+    background: url(../img/stor_icon_6.png) center center no-repeat;
+}
+.part6 .prt_2 i{
+    background: url(../img/stor_icon_7.png) center center no-repeat;
+}
+.part6 .prt_3 i{
+    background: url(../img/stor_icon_8.png) center center no-repeat;
+}
+.part6 .prt_4 i{
+    background: url(../img/stor_icon_9.png) center center no-repeat;
+}
+.part6 p{
+    text-align: left!important;
+    margin-top:20px; 
+}

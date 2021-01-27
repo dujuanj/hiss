@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>智普信科技</title>
+
+    <!-- [loading stylesheets] -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css" />
+    <style>
+        .news_lsit_details img{
+            width:100%!important;
+            height: auto!important;
+        }
+        p + p {
+            text-indent: 0!important;
+        }
+        table{
+            width:100%!important;
+            margin:0!important;
+        }
+        i, cite, em, var, address, dfn {
+    font-style:  normal!important;
+}
+    </style>
+    <!-- [loading scripts] -->
+
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+
+    <script type="text/javascript">
+        var $ = jQuery.noConflict();
+        $(window).load(function () {
+            $('#qbTrans-pageTrans-dialog').remove();
+            $('#slider').flexslider({
+                animation: "slide",
+                directionNav: true,
+                animationLoop: false,
+                controlNav: false,
+                slideToStart: 1,
+                slideshow: true,
+                animationDuration: 300,
+                start: function () {
+                    $('#slider').animate({ opacity: 1 }, 750);
+                },
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <section id="page-wrapper">
+        <!-- 导航 -->
+        <section id="menu-wrapper">
+            <!--             	
+                <div id="menu-search">
+                    <input id="menu-search-input-text" type="text" placeholder="Search..." />
+                    <input id="menu-search-input-submit" type="submit" value="" />
+                </div> -->
+
+            <ul class="menu">
+
+                <li class="icon home">
+                    <a href="index.html">
+                        <span class="menu-li-title">网站首页</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li id="a-submenu-1" class="icon box" >
+                    <a href="#">
+                        <span class="menu-li-title">解决方案</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-1" style='background: #eee;'>
+                        <li style='padding-top:1.2rem' link='smart-office.html'>
+                            <a href="smart-office.html">
+                                <span class="menu-li-title">智能办公</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link='office-se.html'>
+                            <a href="office-se.html">
+                                <span class="menu-li-title">共享空间</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="shared-parking.html">
+                            <a href="shared-parking.html">
+                                <span class="menu-li-title">共享停车</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="shared-storage.html">
+                            <a href="shared-storage.html">
+                                <span class="menu-li-title">共享仓储</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="cloud.html">
+                            <a href="cloud.html">
+                                <span class="menu-li-title">智能安防云</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="baoguan.html">
+                            <a href="baoguan.html" style='display: inline-block;height: 4rem;'>
+                                <span class="menu-li-title">重要物品保管</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                      
+                    </ul>
+
+                </li>
+                <li id="a-submenu-2" class="icon box">
+                    <a href="#">
+                        <span class="menu-li-title">产品中心</span>
+                        <img class="menu-li-arrow-submenu" src="img/icons/submenu.png" alt="" /> </a>
+                    <ul id="submenu-2" style='display: none;background: #eee;height: 21rem;'>
+                        <li style='padding-top:1.2rem;' link="safirst.html">
+                            <a href="safirst.html">
+                                <span class="menu-li-title">Safirst/初柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                        <li link="leBox.html">
+                            <a href="leBox.html">
+                                <span class="menu-li-title">Le-Box/乐盒</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                        <li link="O_S.summary.html">
+                            <a href="O_S.summary.html">
+                                <span class="menu-li-title">O.S Cabinet</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="HISSSafe-summary.html">
+                            <a href="HISSSafe-summary.html">
+                                <span class="menu-li-title">Hiss Safe/保险柜</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+                        <li link="smart-access.html">
+                            <a href="smart-access.html">
+                                <span class="menu-li-title">智能门禁</span>
+                                <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="icon info">
+                    <a href="customer-case.html">
+                        <span class="menu-li-title">客户案例</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+                <li class="icon blog">
+                    <a href="news.html">
+                        <span class="menu-li-title">新闻动态</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+                <li class="icon blog">
+                    <a href="about.html">
+                        <span class="menu-li-title">关于智普信</span>
+                        <img class="menu-li-arrow" src="img/icons/arrow-forward.png" alt="" /> </a> </li>
+
+
+            </ul> <!-- .menu -->
+        </section> <!-- #menu-wrapper -->
+
+
+        <section id="content-wrapper">
+
+            <section id="header">
+
+                <div id="header-left">
+                    <!-- <a href="#" id="a-menu"><img src="img/icons/menu.png" alt="menu" /></a> -->
+                    <a href="index.html"><img style='margin:0.5rem 0 0 1.5rem;width:6rem;' src="./img/icon_logo.png" alt=""></a>
+                </div>
+
+                <div id="header-title">
+                    <!-- <h1>公司名称</h1> -->
+                </div>
+
+                <div id="header-right">
+                    <a href="#" id="a-menu"><img src="img/index_icon_drop.png" alt="menu" /></a>
+                    <!-- <a href="#" id="header-search-link"><img src="img/icons/share.png" alt="Search" /></a>                     -->
+                </div>
+            </section> <!-- #header -->
+            <div id='contents'>
+                <div style='height:3rem;background: #f2f2f2;line-height: 3rem;'>
+                    <div class="wrapper">
+                        <h6 style="line-height:3rem;">新闻详情</h6>
+                    </div>
+
+                </div>
+                <div style='position: relative;'>
+                    <img src="./img/news_img_bg.png" alt="">
+                    <div style='position: absolute;top:30%;width:100%;text-align: center;'>
+                        <h2 style='color:#fff;margin-bottom: 0;'>新闻动态</h2>
+                        <p style='color:#fff;text-align: center;'>NEWS</p>
+                    </div>
+                </div>
+              <div class="wrapper newdetails">
+               
+                 <!-- <h2 style='margin-top:2rem;'>
+                    洪英莉女士作为北亚区唯一代表
+荣获2019纳斯达克全球科技女性称号
+                </h2>
+                 <p>Nasdaq.com   |   2019年06月04日</p>
+                 
+                <p style="text-indent: 0;"> 据纳斯达克官方媒体报道，纽约时间5 月20 日上午9 点，洪英莉女士因其在金融科技领域的突出贡献，荣获2019纳斯达克全球科技女性称号，并因此登上纽约时代广场纳斯达克大屏，是北亚地区唯一获此殊荣的技术女性。以下是纳斯达克对于洪英莉女士的采访全文，文中分享了她对科技的看法和初心、在技术领域里的职业经历以及对年轻技术女性的一些建议</p>
+                <div>
+                    <img src="./img/news_img_det1.png" alt="">
+                </div>
+              
+                <p>洪英莉（Lily Hong）女士本科毕业于美国斯坦福大学，主修计算机科学。2002年回国创业，联合创立北京英孚特创新通讯技术有限公司，主营移动终端的研发、生产、销售，为当时移动终端市场销售前五位的公司。2006年联合创立北京艾尔网路科技有限公司，主营系统集成、数据库运营、网络安全。2008 年，洪英莉创立智普信科技，一家为IoT 行业提供整体安全技术解决方案的科技企业，该公司在Pre-A 轮即获腾讯投资，并成为其最大的企业股东。我们有幸与Lily 坐下来聊聊她的技术职业经历，以及给与希望进入金融、科技行业的年轻技术女性的一些建议。</p>
+            -->
+            </div>
+            
+            <section id="footer">
+                <div style='display: flex;'>
+                    <div style='margin-right:3rem;'>
+                        <img src="./img/logo_footer.png" alt="">
+                        <p style='font-size:0.8rem;'>关于智普信</p>
+                        <p><a href="about.html">公司介绍</a></p>
+                        <p><a href="about.html#part4">品牌理念</a></p>
+                        <p><a href="about.html#part5" >发展历程</a></p>
+                        <p><a href="about.html#part7">专利认证</a></p>
+                        <p><a href="about.html#part9">联系我们</a></p>
+                        <p style='margin-top:2.5rem;font-size:1rem;'>关注我们</p>
+                    </div>
+                    <div>
+                        <p style='margin-top:3.3rem;'>北京总部</p>
+                        <p style='line-height: 20px;'>电话：010-8447-1877 400-928-1122</p>
+                        <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                        <p style='line-height: 20px;'>地址：北京市 朝阳区 朝外大街乙6号 朝外SOHO B座0608室</p>
+                        <p style='margin-top:1.3rem;'>无锡分部</p>
+                        <p style='line-height: 20px;'>电话：0510-85678888</p>
+                        <p style='line-height: 20px;'>邮箱：zps@zeepson.com</p>
+                        <p style='line-height: 20px;'>地址：江苏省 无锡市 锡山区 翠山路488号锡东创谷C栋509</p>
+                        <div style='display: flex;margin-top:2rem;line-height: 20px;'>
+                            <div style='margin-right:3rem;text-align: center;'><img src="./img/index_code_wx.png"
+                                    alt="">
+                                <div>【微信公众号】</div>
+                            </div>
+                            <div style='text-align: center;'><img src="./img/index_code_wb.png" alt="">
+                                <div>【官方微博】</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section> <!-- #footer -->
+
+        </section> <!-- #content-wrapper -->
+    </section> <!-- #page-wrapper -->
+    <script>
+         var newid = window.sessionStorage.getItem('newid');
+        console.log(newid);
+        function newdetails() {
+            $.ajax({
+                type: "POST",
+                url: 'http://192.168.10.32:8099/zeepson/advertisementDetail',
+                data: JSON.stringify({
+                    data: {
+                        listId: newid,
+                    }
+                }),
+                dataType: 'json',
+                contentType: 'application/json',
+                success: function (data) {
+                    console.log(data.data);
+                    var details=data.data.html;
+                    console.log(details);
+                    $('.newdetails').append(details);
+
+
+                }
+
+            });
+
+
+        }
+        newdetails();
+    </script>
+</body>
+
+</html>
